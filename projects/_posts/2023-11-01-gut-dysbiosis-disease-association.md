@@ -11,8 +11,8 @@ website:
 grant:
 grant_url:
 image: 
-tagline: 
-tags: Can we obtain a quantitative understanding of gut dysbiosis to rationalise microbiome modulation?
+tagline: Can we obtain a quantitative understanding of gut dysbiosis to rationalise microbiome modulation? 
+tags: 
 
 # Data and code
 github: 

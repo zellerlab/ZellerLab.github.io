@@ -10,9 +10,9 @@ type: dataset
 website:
 grant:
 grant_url:
-image: /assets/images/projects/spatial_dummy_v2.png
-tagline: 
-tags: How to image diverse microbial communities in their natural environment to reveal spatial community architectures?
+image: 
+tagline: How to image diverse microbial communities in their natural environment to reveal spatial community architectures?
+tags: 
 
 # Data and code
 github: 

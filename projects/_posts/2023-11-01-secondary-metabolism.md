@@ -11,8 +11,8 @@ website:
 grant:
 grant_url:
 image: 
-tagline: 
-tags: How does gut microbial secondary metabolism impact human diseases and drug treatments?
+tagline: How does gut microbial secondary metabolism impact human diseases and drug treatments? 
+tags: 
 
 # Data and code
 github: 

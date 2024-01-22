@@ -11,8 +11,8 @@ website:
 grant:
 grant_url:
 image: 
-tagline: 
-tags: How to effectively utilise statistical modelling and machine learning to delineate microbiome-disease signatures and identify robust biomarkers for disease diagnosis and prognosis?
+tagline: How to effectively utilise statistical modelling and machine learning to delineate microbiome-disease signatures and identify robust biomarkers for disease diagnosis and prognosis? 
+tags: 
 
 # Data and code
 github: 
