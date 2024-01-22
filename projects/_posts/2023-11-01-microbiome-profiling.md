@@ -2,7 +2,7 @@
 layout: project
 title: "Microbiome profiling"
 contributors: [nkarcher, qrducarmon, sromano, fspringer]
-handle: spatial
+handle: profiling
 status: collection
 type: dataset
 

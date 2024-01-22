@@ -2,7 +2,7 @@
 layout: project
 title: "Statistical modelling and meta-analyses"
 contributors: [nkarcher, fspringer, ihmgonnet, sromano]
-handle: spatial
+handle: stats
 status: collection
 type: dataset
 

@@ -2,7 +2,7 @@
 layout: project
 title: "Intratumoral microbiome"
 contributors: [nkarcher, shitut]
-handle: spatial
+handle: intratumoral
 status: collection
 type: dataset
 
