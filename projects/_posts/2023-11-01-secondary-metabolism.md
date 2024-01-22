@@ -1,7 +1,7 @@
 ---
 layout: project
-title: "Gut dysbiosis / disease associations"
-contributors: [lmcarroll]
+title: "Gut microbial secondary metabolism"
+contributors: [lmcarroll, mlarralde, mbaghai, nkarcher, sromano]
 handle: spatial
 status: collection
 type: dataset
@@ -11,8 +11,8 @@ website:
 grant:
 grant_url:
 image: 
-tagline: 
-tags: How does gut microbial secondary metabolism impact human diseases and drug treatments?
+tagline: How does gut microbial secondary metabolism impact human diseases and drug treatments? 
+tags: 
 
 # Data and code
 github: 

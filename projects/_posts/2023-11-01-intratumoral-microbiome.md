@@ -11,8 +11,8 @@ website:
 grant:
 grant_url:
 image: 
-tagline: 
-tags: Can we delineate intra-tumoral microbiomes and link tissue microbiome composition and function to cellular and molecular tumour features? 
+tagline: In which cancers does an intra-tumoral microbiome exist and how does it interact with other cellular and molecular features of the tumour and its microenvironment?  
+tags: 
 
 # Data and code
 github: 

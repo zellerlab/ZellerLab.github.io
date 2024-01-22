@@ -8,18 +8,18 @@ journal: "biorxiv"
 volume:
 issue:
 pages:
-is_published: true
-image:
+is_published: false
+image: /assets/images/papers/biorxiv.png
 projects:
-tags: []
+tags: ["preprint"]
 
 # Text
 fulltext:
 pdf:
 pdflink:
 pmcid:
-preprint:
-supplement:
+preprint: https://doi.org/10.1101/2024.01.08.574624
+supplement: https://www.biorxiv.org/content/10.1101/2024.01.08.574624v1.supplementary-material
 
 # Links
 doi: "10.1101/2024.01.08.574624"

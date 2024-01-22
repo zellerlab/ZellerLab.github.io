@@ -11,8 +11,8 @@ website:
 grant:
 grant_url:
 image: 
-tagline: 
-tags: How can we accurately identify and quantify microbes and their gene functions from various sequencing readouts including ones generated from low-biomass samples?
+tagline: How can we accurately identify and quantify microbes and their gene functions from various sequencing readouts including ones generated from low-biomass samples? 
+tags: 
 
 # Data and code
 github: 

@@ -11,8 +11,8 @@ website:
 grant:
 grant_url:
 image: 
-tagline: 
-tags: How to image diverse microbial communities in their natural environment to reveal spatial community architectures?
+tagline: How to image diverse microbial communities in their natural environment to reveal spatial community architectures?
+tags: 
 
 # Data and code
 github: 
