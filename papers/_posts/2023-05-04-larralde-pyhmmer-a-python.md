@@ -26,7 +26,7 @@ doi: "10.1093/bioinformatics/btad214"
 pmid: 37074928
 
 # Data and code
-github:
+github: [https://github.com/althonos/pyhmmer]
 neurovault:
 openneuro:
 figshare:
