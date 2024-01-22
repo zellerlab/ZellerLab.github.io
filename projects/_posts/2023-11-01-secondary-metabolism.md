@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Gut dysbiosis / disease associations"
+title: "secondary metabolism"
 contributors: [lmcarroll]
 handle: spatial
 status: collection
