@@ -27,10 +27,10 @@ pmid:
 
 # Data and code
 github: [https://github.com/zellerlab/cayman]
-neurovault: []
-openneuro: []
+neurovault:
+openneuro:
 osf:
-figshare: []
+figshare:
 ---
 {% include JB/setup %}
 
