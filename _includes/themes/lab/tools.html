@@ -64,33 +64,14 @@
 			<div class="bigspacer"></div>
 		{% endif %}
 
-		{% if page.openneuro or page.neurovault or page.figshare %}
+		{% if page.papers %}
 			<div class="smallhead subtle">
-				Data
+				Papers
 			</div>
-
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
-				{% for dset in page.openneuro %}
-					<i class="fa fa-database fa-fw"></i>
-					<a class="off" href="https://openneuro.org/datasets/{{ dset }}">OpenNeuro: {{ dset }}</a>
-					<div class="smallspacer"></div>
-				{% endfor %}
-
-				{% for coll in page.neurovault %}
-					<i class="fa fa-database fa-fw"></i>
-					<a class="off" href="https://neurovault.org/collections/{{ coll }}">NeuroVault: {{ coll }}</a>
-					<div class="smallspacer"></div>
-				{% endfor %}
-
-				{% assign n = page.figshare | size %}
-				{% if n > 0 %}
-					{% for coll in (0..n-1) %}
-						<i class="ai ai-figshare ai-fw"></i>
-						<a class="off" href="{{ page.figshare[coll] }}">{{ page.figshare_names[coll] }}</a>
-						<div class="smallspacer"></div>
-					{% endfor %}
-				{% endif %}
+				<i class="ai ai-doi ai-fw"></i>
+				<a class="off" href="{{ page.doi }}">{{ page.papers }}</a>
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
