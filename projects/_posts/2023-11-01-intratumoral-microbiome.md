@@ -10,7 +10,7 @@ type: dataset
 website:
 grant:
 grant_url:
-image: 
+image: /assets/images/projects/intratumoral.png
 tagline: In which cancers does an intra-tumoral microbiome exist and how does it interact with other cellular and molecular features of the tumour and its microenvironment?  
 tags: 
 

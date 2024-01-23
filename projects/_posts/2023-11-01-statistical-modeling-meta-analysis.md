@@ -10,7 +10,7 @@ type: dataset
 website:
 grant:
 grant_url:
-image: 
+image: /assets/images/projects/meta-analysis.png
 tagline: How to effectively utilise statistical modelling and machine learning to delineate microbiome-disease signatures and identify robust biomarkers for disease diagnosis and prognosis? 
 tags: 
 

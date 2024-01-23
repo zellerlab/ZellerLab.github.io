@@ -10,7 +10,7 @@ type: dataset
 website:
 grant:
 grant_url:
-image: 
+image: /assets/images/projects/dysbiosis.png
 tagline: Can we obtain a quantitative understanding of gut dysbiosis to rationalise microbiome modulation? 
 tags: 
 

@@ -10,7 +10,7 @@ type: dataset
 website:
 grant:
 grant_url:
-image: 
+image: /assets/images/projects/spatial.png
 tagline: How to image diverse microbial communities in their natural environment to reveal spatial community architectures?
 tags: 
 

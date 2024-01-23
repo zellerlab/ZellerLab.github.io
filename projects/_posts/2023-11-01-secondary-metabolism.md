@@ -10,7 +10,7 @@ type: dataset
 website:
 grant:
 grant_url:
-image: 
+image: /assets/images/projects/secondary_metabo.png
 tagline: How does gut microbial secondary metabolism impact human diseases and drug treatments? 
 tags: 
 

@@ -10,7 +10,7 @@ type: dataset
 website:
 grant:
 grant_url:
-image: 
+image: /assets/images/projects/profiling.png
 tagline: How can we accurately identify and quantify microbes and their gene functions from various sequencing readouts including ones generated from low-biomass samples? 
 tags: 
 

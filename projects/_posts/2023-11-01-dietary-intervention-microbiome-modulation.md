@@ -10,7 +10,7 @@ type: dataset
 website: ""
 grant:
 grant_url:
-image: /assets/images/projects/2016-09-25-abcd.png
+image: /assets/images/projects/dietary.png
 tagline: How can the microbiome be modulated to improve human health?
 tags: [fmri]
 
