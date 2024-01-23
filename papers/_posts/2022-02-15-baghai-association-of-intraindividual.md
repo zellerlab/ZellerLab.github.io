@@ -9,7 +9,7 @@ volume: 37
 issue: 10
 pages: "2503-2514"
 is_published: true
-image: []
+image: /assets/images/papers/ped-nephrology.png
 projects:
 tags: []
 
