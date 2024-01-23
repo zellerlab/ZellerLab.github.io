@@ -9,7 +9,7 @@ volume:
 issue: 
 pages:
 is_published: true
-image: []
+image: /assets/images/papers/nat-protocol.png
 projects:
 tags: []
 # Text
