@@ -52,6 +52,18 @@
 			<div class="bigspacer"></div>
 		{% endif %}
 
+		{% if page.doi %}
+			<div class="smallhead subtle">
+				DOI
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="ai ai-doi ai-fw"></i>
+				<a class="off" href="http://dx.doi.org/{{ page.doi }}">{{ page.doi }}</a>
+			</div>
+			<div class="bigspacer"></div>
+		{% endif %}
+
 		{% if page.openneuro or page.neurovault or page.figshare %}
 			<div class="smallhead subtle">
 				Data
