@@ -2,7 +2,7 @@
 layout: project
 title: "Gut dysbiosis / disease associations"
 contributors: [nkarcher, shitut]
-handle: spatial
+handle: dysbiosis
 status: collection
 type: dataset
 

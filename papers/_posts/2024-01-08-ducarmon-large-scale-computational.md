@@ -10,7 +10,7 @@ issue:
 pages:
 is_published: false
 image: /assets/images/papers/biorxiv.png
-projects:
+projects: [profiling]
 tags: ["preprint"]
 
 # Text
@@ -26,7 +26,7 @@ doi: "10.1101/2024.01.08.574624"
 pmid:
 
 # Data and code
-github: []
+github: [https://github.com/zellerlab/cayman]
 neurovault: []
 openneuro: []
 osf:

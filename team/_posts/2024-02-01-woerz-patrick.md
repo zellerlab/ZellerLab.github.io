@@ -12,6 +12,6 @@ email: p.woerz@lumc.nl
 github: pspice97
 ---
 
-Patrick is a PhD student in the Zeller group since February 2024 and previously did an intership in the same group (October 2023 - January 2024). He obtained a BSc in Biochemistry from Eberhard Karls University (Tübingen, Germany) in 2019 and an MSc in Bioinformatics at the same institute in 2023.
+Patrick has been a PhD student in the Zeller group since February 2024; before that he did an internship in the group between October 2023 - January 2024. He obtained a BSc in Biochemistry from Eberhard Karls University, Tübingen, Germany, in 2019 and an MSc in Bioinformatics from the same institute in 2023. His Master's thesis was about improving the performance of taxonomic profiling pipelines by clustering of protein reference databases.
 
-His research is focused on taxonomic profiling, particularly concerning bacteria and eukaryota within low-biomass samples. He seeks to integrate the microbial pangenome with community profiling approaches, specifically enhancing the mOTUs profiler developed within this group, to provide better resolution of microbial communities across diverse environments.
+His PhD project  focuses on computational tool development and applications for taxonomic and functional profiling, particularly concerning bacteria and eukaryota within low-biomass samples. He currently works on enhancing the mOTUs profiler developed within this group, to improve its sensitivity and more tightly integrate it with functional profiling tools.
