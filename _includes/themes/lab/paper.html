@@ -85,6 +85,18 @@ with gratitude.
 				<div class="bigspacer"></div>
 			{% endif %}
 
+			{% if page.tools %}
+				<div class="smallhead subtle">
+					Tools
+				</div>
+				<div class="pad-left note">
+					<div class="smallspacer"></div>
+					<i class="ai ai-doi ai-fw"></i>
+					<a class="off" href="{{ page.tools }}">{{ page.tools }}</a>
+				</div>
+				<div class="bigspacer"></div>
+			{% endif %}
+
 			{% if page.github %}
 				<div class="smallhead subtle">
 					Source Code
