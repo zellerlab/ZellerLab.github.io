@@ -66,11 +66,17 @@
 			<div class="smallhead subtle">
 				Papers
 			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="ai ai-doi ai-fw"></i>
-				<a class="off" href="{{ page.doi }}">{{ page.papers }}</a>
-			</div>
+      {% for handle in page.papers %}
+        {% for paper in site.categories.papers %}
+          {% if handle == paper.nickname %}
+            <div class="pad-left note">
+              <div class="smallspacer"></div>
+              <i class="ai ai-doi ai-fw"></i>
+              <a class="off" href="{{ paper.url }}">{{ paper.title }}</a>
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
 			<div class="bigspacer"></div>
 		{% endif %}
 
