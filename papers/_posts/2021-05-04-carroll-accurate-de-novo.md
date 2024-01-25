@@ -11,7 +11,7 @@ pages:
 is_published: false
 image: /assets/images/papers/biorxiv.png
 projects: [secmet]
-softwares: [gecco]
+tools: [gecco]
 tags: ["preprint"]
 tools: https://zellerlab.github.io/tools/gecco
 

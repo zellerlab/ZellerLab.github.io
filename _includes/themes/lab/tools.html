@@ -98,19 +98,19 @@
 
 		<!-- Show papers, then talks, then posters -->
     {% for paper in site.categories.papers %}
-      {% if paper.projects contains page.handle %}
+      {% if paper.tools contains page.handle %}
         {% assign papersq = true %}
       {% endif %}
     {% endfor %}
 
     {% for pres in site.categories.talks %}
-      {% if pres.projects contains page.handle %}
+      {% if pres.tools contains page.handle %}
         {% assign talksq = true %}
       {% endif %}
     {% endfor %}
 
     {% for poster in site.categories.posters %}
-      {% if poster.projects contains page.handle %}
+      {% if poster.tools contains page.handle %}
         {% assign postersq = true %}
       {% endif %}
     {% endfor %}
@@ -126,7 +126,7 @@
       <div class="head">Papers</div>
       <div class="spacer"></div>
       {% for paper in site.categories.papers %}
-			  {% if paper.softwares contains page.handle %}
+			  {% if paper.tools contains page.handle %}
 					<div class="pad-left note"><p>
 						{% if paper.embargo %}
 							{{ paper.title }}
@@ -152,7 +152,7 @@
       <div class="head">Talks</div>
       <div class="spacer"></div>
       {% for pres in site.categories.talks %}
-        {% if pres.projects contains page.handle %}
+        {% if pres.tools contains page.handle %}
 					<div class="pad-left note"><p>
           <a href="{{ pres.url }}" class="off">{{ pres.title }}</a>
 					</p></div>
@@ -166,7 +166,7 @@
       <div class="head">Posters</div>
       <div class="spacer"></div>
       {% for poster in site.categories.posters %}
-        {% if poster.projects contains page.handle %}
+        {% if poster.tools contains page.handle %}
 					<div class="pad-left note"><p>
           <a href="{{ poster.url }}" class="off">{{ poster.title }}</a>
 					</p></div>

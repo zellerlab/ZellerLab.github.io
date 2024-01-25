@@ -11,7 +11,7 @@ pages:
 is_published: false
 image: /assets/images/papers/biorxiv.png
 projects: [profiling]
-softwares: [cayman]
+tools: [cayman]
 tags: ["preprint"]
 
 # Text
