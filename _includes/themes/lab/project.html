@@ -93,6 +93,27 @@
 			<div class="bigspacer"></div>
 		{% endif %}
 
+    <!-- Show tools linked to the project -->
+    {% for tool in site.categories.tools %}
+      {% if tool.projects contains page.handle %}
+        {% assign toolsq = true %}
+      {% endif %}
+    {% endfor %}
+    {% if toolsq == true %}
+      <div class="smallhead subtle">
+        Tools
+      </div>
+      {% for tool in site.categories.tools %}
+        {% if tool.projects contains page.handle %}
+          <div class="pad-left note">
+            <div class="smallspacer"></div>
+            <a class="off" href="{{ tool.url }}">{{ tool.title }}</a>
+          </div>
+        {% endif %}
+      {% endfor %}
+      <div class="bigspacer"></div>
+    {% endif %}
+
     <div class="smallhead subtle">
       Lab Contributors
     </div>
@@ -101,8 +122,8 @@
       {% for member in site.categories.team %}
         {% if contributor == member.handle and member.alumni != true %}
           <div class="pad-left note">
-          <a class="off" href="{{ member.url }}">{{ member.title }}</a>
-          <div class="smallspacer"></div>
+            <a class="off" href="{{ member.url }}">{{ member.title }}</a>
+            <div class="smallspacer"></div>
           </div>
         {% endif %}
       {% endfor %}
