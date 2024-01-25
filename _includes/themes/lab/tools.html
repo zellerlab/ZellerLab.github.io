@@ -62,24 +62,6 @@
 			<div class="bigspacer"></div>
 		{% endif %}
 
-		{% if page.papers %}
-			<div class="smallhead subtle">
-				Papers
-			</div>
-      {% for handle in page.papers %}
-        {% for paper in site.categories.papers %}
-          {% if handle == paper.nickname %}
-            <div class="pad-left note">
-              <div class="smallspacer"></div>
-              <i class="ai ai-doi ai-fw"></i>
-              <a class="off" href="{{ paper.url }}">{{ paper.title }}</a>
-            </div>
-          {% endif %}
-        {% endfor %}
-      {% endfor %}
-			<div class="bigspacer"></div>
-		{% endif %}
-
 		{% if page.osf %}
 			<div class="smallhead subtle">
 				Additional Resources
@@ -144,7 +126,7 @@
       <div class="head">Papers</div>
       <div class="spacer"></div>
       {% for paper in site.categories.papers %}
-			  {% if paper.projects contains page.handle %}
+			  {% if paper.softwares contains page.handle %}
 					<div class="pad-left note"><p>
 						{% if paper.embargo %}
 							{{ paper.title }}

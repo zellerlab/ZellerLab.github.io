@@ -11,6 +11,7 @@ pages: 93
 is_published: true
 image: /assets/images/papers/genome-biol.png
 projects:
+softwares: [siamcat]
 tags: []
 
 # Text
