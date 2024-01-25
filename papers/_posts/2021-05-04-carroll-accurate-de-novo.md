@@ -13,7 +13,6 @@ image: /assets/images/papers/biorxiv.png
 projects: [secmet]
 tools: [gecco]
 tags: ["preprint"]
-tools: https://zellerlab.github.io/tools/gecco
 
 # Text
 fulltext:
