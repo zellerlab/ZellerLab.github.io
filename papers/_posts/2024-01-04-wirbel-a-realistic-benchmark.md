@@ -2,7 +2,7 @@
 layout: paper
 title: "A realistic benchmark for the identification of differentially abundant taxa in (confounded) human microbiome studies"
 nickname: 2024-01-04-wirbel-a-realistic-benchmark
-authors: "Jakob Wirbel, Morgan Essex, Sofia Kirke Forslund, Georg Zeller"
+authors: "Wirbel J, Essex M, Forslund S, Zeller G"
 year: "2024"
 journal: "bioRxiv"
 volume: 
