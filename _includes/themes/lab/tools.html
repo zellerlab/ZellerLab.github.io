@@ -20,7 +20,7 @@
 
 		{% if page.website %}
       <div class="smallhead">
-        <a class="off" href="{{ page.website }}">Project Website</a>
+        <a class="off" href="{{ page.website }}">Website</a>
       </div>
       <div class="bigspacer"></div>
     {% endif %}
@@ -73,6 +73,31 @@
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
+
+    {% if page.projects %}
+      <div class="smallhead subtle">
+        Projects
+      </div>
+      {% for project in site.categories.projects %}
+        {% if page.projects contains project.handle %}
+          <div class="pad-left note">
+          <div class="smallspacer"></div>
+          <i class="fa fa-cube fa-fw"></i>
+          <a href="{{ project.url }}" class="off">{{ project.title }}</a>
+          </div>
+        {% endif %}
+      {% endfor %}
+      {% for project in site.categories.software %}
+        {% if page.projects contains project.handle %}
+          <div class="pad-left note">
+          <div class="smallspacer"></div>
+          <i class="fa fa-cube fa-fw"></i>
+          <a href="{{ project.url }}" class="off">{{ project.title }}</a>
+          </div>
+        {% endif %}
+      {% endfor %}
+      <div class="bigspacer"></div>
+    {% endif %}
 
     <div class="smallhead subtle">
       Lab Contributors
