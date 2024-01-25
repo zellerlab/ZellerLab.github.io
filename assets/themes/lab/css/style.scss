@@ -158,6 +158,10 @@ a.off {
 	border-bottom: none;
 }
 
+p > image {
+	max-width: 100%;
+}
+
 /*a {
 	border-bottom: thin dotted;
 }*/
@@ -285,10 +289,6 @@ strong {
 
 .paper-image {
 	width: 200px;
-}
-
-image {
-	max-width: 100%;
 }
 
 // carousel
