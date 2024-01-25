@@ -23,9 +23,9 @@ navorder: 3
 <table align="center" ; width=1250px>
     {% tablerow product in software cols:2 %}
     {% if product.image %}
-    {% assign image = product.image %}
+        {% assign image = product.image %}
     {% else %}
-    {% assign image = "/assets/images/placeholder-software.png" %}
+        {% assign image = "/assets/images/placeholder.png" %}
     {% endif %}
 
     <div class="col-md-2.5 paperbox" style="min-width: 575px">

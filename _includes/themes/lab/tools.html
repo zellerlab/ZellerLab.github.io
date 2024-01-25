@@ -1,7 +1,5 @@
 {% if page.image %}
 	{% assign image = page.image %}
-{% elsif page.tags contains "software" %}
-	{% assign image = "/assets/images/placeholder-software.png" %}
 {% else %}
 	{% assign image = "/assets/images/placeholder.png" %}
 {% endif %}
