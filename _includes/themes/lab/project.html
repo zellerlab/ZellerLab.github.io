@@ -107,6 +107,7 @@
         {% if tool.projects contains page.handle %}
           <div class="pad-left note">
             <div class="smallspacer"></div>
+            <i class="glyphicon glyphicon-wrench"></i>
             <a class="off" href="{{ tool.url }}">{{ tool.title }}</a>
           </div>
         {% endif %}
@@ -122,6 +123,7 @@
       {% for member in site.categories.team %}
         {% if contributor == member.handle and member.alumni != true %}
           <div class="pad-left note">
+            <i class="glyphicon glyphicon-user"></i>
             <a class="off" href="{{ member.url }}">{{ member.title }}</a>
             <div class="smallspacer"></div>
           </div>
