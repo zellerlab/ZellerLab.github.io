@@ -232,6 +232,7 @@
 				{% for project in site.categories.projects %}
 					{% if project.contributors contains member.handle %}
 						  <div class="pad-left note"><p>
+							<i class="fa fa-cube fa-fw"></i>
 							<a href="{{ project.url }}" class="off">{{ project.title }}</a>
 						  </p></div>
 					{% endif %}
@@ -242,10 +243,11 @@
 			{% if toolsq == true %}
 				<div class="bigspacer"></div>
 				<div class="head">Tools</div>
-				<div class="spacer"></div>
+				<div class="spacer"></div> 
 				{% for tool in site.categories.tools %}
 					{% if tool.contributors contains member.handle %}
 							<div class="pad-left note"><p>
+								<i class="glyphicon glyphicon-wrench"></i>
 								<a href="{{ tool.url }}" class="off">{{ tool.title }}</a>
 							</p></div>
 					{% endif %}
@@ -279,6 +281,7 @@
 						{% for science_name in member.science_names %}
 							{% if author == science_name %}
 							  <div class="pad-left note"><p>
+								<i class="fa fa-file-text-o fa-fw"></i>
 									{% if paper.embargo %}
 									  {{ paper.title }}
 									{% else %}

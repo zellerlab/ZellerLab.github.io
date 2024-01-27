@@ -170,6 +170,7 @@
       {% for paper in site.categories.papers %}
 			  {% if paper.projects contains page.handle %}
 					<div class="pad-left note"><p>
+            <i class="fa fa-file-text-o fa-fw"></i>
 						{% if paper.embargo %}
 							{{ paper.title }}
 						{% else %}
