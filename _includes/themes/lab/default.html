@@ -75,7 +75,6 @@
         </button>
         <a href="/">
           <img id="header-logo" class="pull-left" src="{{ ASSET_PATH }}/images/logo/logo.png" height=50px>
-          <h2 class="pull-right" height=50px>The Zeller Lab</h2>
         </a>
         <!-- <img class="pull-left" src="{{ ASSET_PATH }}/images/banner/lab-banner.png" height=50px> -->
         </a>
@@ -85,7 +84,6 @@
       <div class="collapse navbar-collapse" id="jb-navbar-collapse">
         <ul class="nav navbar-nav navbar-left hidden-sm">
           <!-- Don't put site title on home page -- there's already a big title there. -->
-          {% assign make_title = false %} <!-- CHANGED TO FALSE BY TS -->
           {% for pc in page.categories %}
             {% if pc == "home" %}
              {% assign make_title = false %}
