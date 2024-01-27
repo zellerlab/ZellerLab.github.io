@@ -197,6 +197,7 @@
       {% for pres in site.categories.talks %}
         {% if pres.projects contains page.handle %}
 					<div class="pad-left note"><p>
+          <i class="glyphicon glyphicon-bullhorn"></i>
           <a href="{{ pres.url }}" class="off">{{ pres.title }}</a>
 					</p></div>
         {% endif %}
@@ -211,6 +212,7 @@
       {% for poster in site.categories.posters %}
         {% if poster.projects contains page.handle %}
 					<div class="pad-left note"><p>
+          <i class="glyphicon glyphicon-picture"></i>
           <a href="{{ poster.url }}" class="off">{{ poster.title }}</a>
 					</p></div>
         {% endif %}
