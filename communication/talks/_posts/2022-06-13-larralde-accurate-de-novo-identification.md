@@ -7,6 +7,7 @@ year: "2022"
 conference: Microbial Secondary Metabolites in Microbiomes
 image: /assets/images/talks/2022-06-13-larralde-accurate-de-novo-identification.png
 projects: [secmet]
+tools: [gecco]
 tags: []
 
 ---
