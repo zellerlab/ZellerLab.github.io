@@ -4,6 +4,7 @@ title: "Optimizing venerable bioinformatics software: A profile-guided approach"
 nickname: 2022-09-18-larralde-optimizing-venerable-bioinformatics
 authors: "Larralde M"
 year: "2022"
+image: /assets/images/talks/2022-09-18-larralde-optimizing-venerable-bioinformatics.png
 conference: "European Student Council Symposium"
 tags: [bioinformatics, performance, optimization, profiler, green computing, Python, Cython]
 
