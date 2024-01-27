@@ -70,6 +70,24 @@ with gratitude.
 				<div class="bigspacer"></div>
 			{% endif %}
 
+      {% if page.tools %}
+        <div class="smallhead subtle">
+          Tools
+        </div>
+        {% for tool in page.tools %}
+          {% for toolpage in site.categories.tools %}
+            {% if tool == toolpage.handle %}
+            <div class="pad-left note">
+              <div class="smallspacer"></div>
+              <i class="glyphicon glyphicon-wrench"></i>
+              <a class="off" href="{{ toolpage.url }}">{{ toolpage.title }}</a>
+            </div>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+        <div class="bigspacer"></div>
+      {% endif %}
+
 			{% if page.github %}
 				<div class="smallhead subtle">
 					Source Code
