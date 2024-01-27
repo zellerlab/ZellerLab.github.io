@@ -248,7 +248,7 @@
 					{% if tool.contributors contains member.handle %}
 							<div class="pad-left note"><p>
 								<i class="glyphicon glyphicon-wrench"></i>
-								<a href="{{ tool.url }}" class="off">{{ tool.title }}</a>
+								<a href="{{ tool.url }}" class="off">{{ tool.title }}: {{ tool.tagline }}</a>
 							</p></div>
 					{% endif %}
 				{% endfor %}
