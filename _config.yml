@@ -8,24 +8,24 @@ highlighter: rouge
 
 markdown: kramdown
 
-repository: NBCLab/nbclab.github.io
+repository: ZellerLab/zellerlab.github.io
 future: true
 
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : NBC Lab
-tagline: Neuroinformatics and brain connectivity
+title : Zeller Lab
+tagline:
 institution:
-  url: http://fiu.edu
-  name: Florida International University
+  url: https://www.lumc.nl/
+  name: Leids Universitair Medisch Centrum
 department:
-  url: http://cn.fiu.edu
-  name: Cognitive Neuroscience
+  url: https://www.lumc.nl/patientenzorg/poliklinieken-verpleegafdelingen-en-expertise-centra/expertisecentra/leiden-university-center-for-infectious-diseases-lucid/
+  name: LU-CID
 author :
-  name : Taylor Salo
-  email : tsalo006@fiu.edu
-  github : tsalo
+  name : Martin larralde
+  email : martin.larralde@embl.de
+  github : althonos
 #  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -36,7 +36,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://www.nbclab.github.io
+production_url : http://zellerlab.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -93,7 +93,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : https-nbclab-github-io
+      short_name : https-zellerlab-github-io
     livefyre :
       site_id :
     intensedebate :
@@ -111,14 +111,14 @@ JB :
   analytics :
     provider : google
     google :
-      tracking_id : 'UA-106498545-1'
+      tracking_id : #'UA-106498545-1'
     getclicky :
       site_id :
     mixpanel :
-      token : '_MIXPANEL_TOKEN_'
+      token : #'_MIXPANEL_TOKEN_'
     piwik :
-      baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
-      idsite : '1'                   # the id of the site on Piwik
+      baseURL : #'myserver.tld/piwik' # Piwik installation address (without protocol)
+      idsite : #'1'                   # the id of the site on Piwik
 
   # Settings for sharing
   # Sharing is for things like tweet, plusone, hn upvotes, like, linkedin
