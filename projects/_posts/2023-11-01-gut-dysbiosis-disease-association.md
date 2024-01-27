@@ -3,7 +3,7 @@ layout: project
 title: "Gut dysbiosis / disease associations"
 contributors: [nkarcher, shitut]
 handle: dysbiosis
-status: collection
+status: ongoing
 type: dataset
 
 # Optional

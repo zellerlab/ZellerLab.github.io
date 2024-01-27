@@ -3,7 +3,7 @@ layout: project
 title: "Spatial community analysis"
 contributors: [nkarcher, shitut]
 handle: spatial
-status: collection
+status: ongoing
 type: dataset
 
 # Optional

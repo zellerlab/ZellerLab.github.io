@@ -3,7 +3,7 @@ layout: project
 title: "Microbiome profiling"
 contributors: [nkarcher, qrducarmon, sromano, fspringer, spekel]
 handle: profiling
-status: collection
+status: ongoing
 type: dataset
 
 # Optional

@@ -14,20 +14,14 @@ navorder: 2
   {% endif %}
 {% endfor %}
 
-{% assign collecting = "" | split: "" %}
-{% assign analyzing = "" | split: "" %}
+{% assign ongoing = "" | split: "" %}
 {% assign complete = "" | split: "" %}
-{% assign other = "" | split: "" %}
 {% assign temp = site.categories.projects | reverse %}
 {% for item in temp %}
-    {% if item.status == "collection" %}
-        {% assign collecting = collecting | push: item %}
-    {% elsif item.status == "analysis" %}
-        {% assign analyzing = analyzing | push: item %}
-    {% elsif item.status == "complete" %}
+    {% if item.status == "complete" %}
         {% assign complete = complete | push: item %}
     {% else %}
-        {% assign other = other | push: item %}
+        {% assign ongoing = ongoing | push: item %}
     {% endif %}
 {% endfor %}
 
@@ -48,7 +42,7 @@ navorder: 2
 <div class="container-fluid">
     <div class="row">
         <!-- <div class="col-md-6"> -->
-            {% for product in collecting %}
+            {% for product in ongoing %}
                 {% if product.image %}
                     {% assign image = product.image %}
                 {% else %}
@@ -81,6 +75,8 @@ navorder: 2
 
 
 <!-- Completed Projects -->
+
+{% if complete.size > 0 %}
 
 <div class="bigspacer"></div>
 <div class="title text-center">Completed Projects</div>
@@ -120,5 +116,7 @@ navorder: 2
         <!-- </div> -->
     </div>
 </div>
+
+{% endif %}
 
 <div class="bigspacer"></div>

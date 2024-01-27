@@ -3,7 +3,7 @@ layout: project
 title: "Dietary interventions and microbiome modulation"
 contributors: [qrducarmon]
 handle: dietarymicrobiome
-status: collection
+status: ongoing
 type: dataset
 
 # Optional
