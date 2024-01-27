@@ -11,6 +11,7 @@ pages:
 is_published: true
 image: /assets/images/papers/bioinformatics.png
 projects:
+tools: [pyhmmer]
 tags: []
 
 # Text
