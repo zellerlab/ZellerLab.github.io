@@ -2,7 +2,7 @@
 layout: talk
 title: "Accurate de novo identification of biosynthetic gene clusters with GECCO"
 nickname: 2022-06-13-larralde-accurate-de-novo-identification
-authors: "Carroll LM, Larralde M, Fleck JS, Ponnudurai R, Milanese A, Cappio E, Zeller G"
+authors: "Larralde M, Carroll LM, Fleck JS, Ponnudurai R, Milanese A, Cappio E, Zeller G"
 year: "2022"
 conference: Microbial Secondary Metabolites in Microbiomes
 image: /assets/images/talks/2022-06-13-larralde-accurate-de-novo-identification.png
