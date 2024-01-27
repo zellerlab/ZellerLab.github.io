@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: “Association of intraindividual tacrolimus variability with de novo donor-specific HLA antibody development and allograft rejection in pediatric kidney transplant recipients with low immunological risk”
+title: "Association of intraindividual tacrolimus variability with de novo donor-specific HLA antibody development and allograft rejection in pediatric kidney transplant recipients with low immunological risk"
 nickname: []
 authors: "Baghai Arassi M, Gauche L, Schmidt J, Höcker B, Rieger S, Süsal C, Tönshoff B, Fichtner A"
 year: "2022"
@@ -22,7 +22,7 @@ preprint:
 supplement:
 
 # Links
-doi: “10.1007/s00467-022-05426-3”
+doi: "10.1007/s00467-022-05426-3"
 pmid: 35166920
 
 # Data and code

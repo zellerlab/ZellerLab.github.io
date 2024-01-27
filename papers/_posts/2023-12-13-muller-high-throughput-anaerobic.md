@@ -20,7 +20,7 @@ pmcid:
 preprint:
 supplement:
 # Links
-doi: “10.1038/s41596-023-00926-4”
+doi: "10.1038/s41596-023-00926-4"
 pmid: 38092943
 # Data and code
 github:
