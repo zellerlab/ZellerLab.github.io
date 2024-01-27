@@ -5,7 +5,6 @@ nickname: 2022-09-18-larralde-optimizing-venerable-bioinformatics
 authors: "Larralde M"
 year: "2022"
 conference: "European Student Council Symposium"
-projects: []
 tags: [bioinformatics, performance, optimization, profiler, green computing, Python, Cython]
 
 # Content
