@@ -210,12 +210,10 @@
 
 			{% for poster in site.categories.posters %}
 				{% assign split_authors = poster.authors | split: ", " %}
-				{% for author in split_authors %}
-					{% for science_name in member.science_names %}
-						{% if author == science_name %}
-							{% assign postersq = true %}
-						{% endif %}
-					{% endfor %}
+				{% for science_name in member.science_names %}
+					{% if split_authors[0] == science_name %}
+						{% assign postersq = true %}
+					{% endif %}
 				{% endfor %}
 			{% endfor %}
 
@@ -327,16 +325,14 @@
 				<div class="head">Posters</div>
 				<div class="spacer"></div>
 				{% for poster in site.categories.posters %}
-					{% assign split_authors = poster.authors | split: ", " %}
-					{% for author in split_authors %}
-						{% for science_name in member.science_names %}
-							{% if author == science_name %}
+					{% assign split_authors = pres.authors | split: ", " %}
+					{% for science_name in member.science_names %}
+						{% if split_authors[0] == science_name %}
 							  <div class="pad-left note"><p>
 								<i class="fa fa-thumb-tack fa-fw"></i>
 								<a href="{{ poster.url }}" class="off">{{ poster.title }}</a>
 								</p></div>
-							{% endif %}
-						{% endfor %}
+						{% endif %}
 					{% endfor %}
 				{% endfor %}
 			{% endif %}
