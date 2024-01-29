@@ -10,7 +10,7 @@ issue: 7
 pages: e13866
 is_published: true
 image: /assets/images/papers/pediatr-transplant.png
-projects:
+projects: [secmet]
 tags: []
 
 # Text
