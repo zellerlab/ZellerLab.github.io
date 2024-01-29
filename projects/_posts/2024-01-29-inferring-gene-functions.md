@@ -2,7 +2,7 @@
 layout: project
 title: "Inferring gene functions (using AI)"
 contributors: [lmcarroll, mlarralde, rehackett, sromano]
-handle: secmet
+handle: function
 status: ongoing
 type: dataset
 
