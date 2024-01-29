@@ -10,7 +10,8 @@ issue: 1
 pages: 1014
 is_published: true
 image: /assets/images/papers/nat-commun.png
-projects:
+projects: [profiling]
+tool: [motus]
 tags: []
 
 # Text
