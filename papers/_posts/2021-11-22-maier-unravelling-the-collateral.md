@@ -10,7 +10,7 @@ issue: 7883
 pages: 120-124
 is_published: true
 image: /assets/images/papers/nature.png
-projects:
+projects: [dietarymicrobiome]
 tags: []
 
 # Text
