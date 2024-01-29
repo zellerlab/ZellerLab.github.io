@@ -10,7 +10,7 @@ issue: 1
 pages: 30
 is_published: true
 image: /assets/images/papers/genome-med.png
-projects:
+projects: [dietarymicrobiome]
 tags: []
 
 # Text
