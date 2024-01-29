@@ -4,6 +4,8 @@ The code for this site was forked from [the Neuroinformatics and Brain Connectiv
 
 # TODOS
 
+See this [Google docs file](https://docs.google.com/document/d/1MYZeRlA1fd3OzgQZbUu4KjnrfZKpyNy13Ht7Ui126Cs/edit) for writing texts collaboratively.
+
 See this [notes document](https://pad.bio-it.embl.de/iOeG4AWpQxmgmQ4Es_DrZw) or issues on [the site](https://github.com/zellerlab/ZellerLab.github.io).
 
 # How to add content
