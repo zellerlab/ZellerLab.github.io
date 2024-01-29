@@ -10,7 +10,7 @@ issue: 1
 pages: 93
 is_published: true
 image: /assets/images/papers/genome-biol.png
-projects: [stats]
+projects: [stats, intratumoral]
 tools: [siamcat]
 tags: []
 
