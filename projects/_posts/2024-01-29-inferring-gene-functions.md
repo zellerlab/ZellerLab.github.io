@@ -10,7 +10,7 @@ type: dataset
 website:
 grant:
 grant_url:
-image: /assets/images/projects/micriobial_gears.png
+image: /assets/images/projects/microbial_gears.png
 tagline: What do microbial genes even do? Can we predict gene function in the context of metabolic pathways?
 tags: 
 
