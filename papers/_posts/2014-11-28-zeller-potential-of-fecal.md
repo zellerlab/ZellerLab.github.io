@@ -10,7 +10,7 @@ issue: 11
 pages: 766
 is_published: true
 image: /assets/images/papers/mol-syst-biol.png
-projects:
+projects: [intratumoral]
 tags: []
 
 # Text
