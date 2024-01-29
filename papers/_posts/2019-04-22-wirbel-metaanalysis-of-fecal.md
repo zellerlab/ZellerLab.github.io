@@ -10,7 +10,7 @@ issue: 4
 pages: 679-689
 is_published: true
 image: /assets/images/papers/nat-med.png
-projects:
+projects: [stats]
 tags: []
 
 # Text
