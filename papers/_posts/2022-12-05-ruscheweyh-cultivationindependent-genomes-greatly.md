@@ -10,7 +10,7 @@ issue: 1
 pages: 212
 is_published: true
 image: /assets/images/papers/microbiome.png
-projects:
+projects: [profiling]
 tags: []
 
 # Text
