@@ -10,7 +10,7 @@ issue: 4
 pages: 429-440
 is_published: true
 image: /assets/images/papers/nat-methods.png
-projects:
+projects: [profiling]
 tags: []
 
 # Text
