@@ -10,7 +10,7 @@ issue: 8
 pages: 832-844
 is_published: true
 image: /assets/images/papers/trends-microbiol.png
-projects:
+projects: [dietarymicrobiome]
 tags: []
 
 # Text
