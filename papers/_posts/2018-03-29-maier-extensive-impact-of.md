@@ -10,7 +10,7 @@ issue: 7698
 pages: 623-628
 is_published: true
 image: /assets/images/papers/nature.png
-projects:
+projects: [dietarymicrobiome]
 tags: []
 
 # Text
