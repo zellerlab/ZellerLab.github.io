@@ -4,7 +4,7 @@ The code for this site was forked from [the Neuroinformatics and Brain Connectiv
 
 # TODOS
 
-See Issues on [the site](https://github.com/zellerlab/ZellerLab.github.io).
+See this [notes document](https://pad.bio-it.embl.de/iOeG4AWpQxmgmQ4Es_DrZw) or issues on [the site](https://github.com/zellerlab/ZellerLab.github.io).
 
 # How to add content
 
