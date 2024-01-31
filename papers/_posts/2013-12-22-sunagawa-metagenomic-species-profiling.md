@@ -11,6 +11,7 @@ pages: 1196-9
 is_published: true
 image: /assets/images/papers/nat-methods.png
 projects: [profiling]
+tools: [motus]
 tags: []
 
 # Text
