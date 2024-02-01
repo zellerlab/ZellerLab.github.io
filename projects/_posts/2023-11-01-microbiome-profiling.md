@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Microbiome profiling"
-contributors: [nkarcher, qrducarmon, sromano, fspringer, spekel]
+contributors: [nkarcher, qrducarmon, sromano, fspringer, spekel, pwoerz]
 handle: profiling
 status: ongoing
 type: dataset
