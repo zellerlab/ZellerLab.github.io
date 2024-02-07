@@ -21,9 +21,9 @@ at the Université Paris-Saclay. He joined the Zeller lab in 2019 to study
 the secondary metabolism of the human gut microbiome.
 
 Martin is involved in functional annotation, more specifically in the discovery 
-of biosynthetic gene clusters (BGCs). He spent most of his PhD developing GECCO, 
-the Zeller lab project to identify novel BGCs *in silico* from genomic and 
-metagenomic sequences.
+of biosynthetic gene clusters (BGCs). He spent most of his PhD developing 
+[GECCO](/tools/gecco), the Zeller lab project to identify novel BGCs 
+*in silico* from genomic and metagenomic sequences.
 
 In addition, he develops high-performance software for efficient analysis of
 biological data, contributing interfaces for popular bioinformatics tools such
