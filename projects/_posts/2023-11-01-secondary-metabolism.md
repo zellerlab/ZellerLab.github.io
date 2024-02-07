@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Gut microbial secondary metabolism"
-contributors: [lmcarroll, mlarralde, mbaghai, nkarcher, sromano]
+contributors: [lmcarroll, mlarralde, mbaghai, nkarcher, sromano, rehackett]
 handle: secmet
 status: ongoing
 type: dataset
