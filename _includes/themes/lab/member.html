@@ -325,7 +325,7 @@
 				<div class="head">Posters</div>
 				<div class="spacer"></div>
 				{% for poster in site.categories.posters %}
-					{% assign split_authors = pres.authors | split: ", " %}
+					{% assign split_authors = poster.authors | split: ", " %}
 					{% for science_name in member.science_names %}
 						{% if split_authors[0] == science_name %}
 							  <div class="pad-left note"><p>
