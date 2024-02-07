@@ -10,6 +10,7 @@ issue: 8
 pages: e218
 is_published: true
 image: /assets/images/papers/curr-protoc.png
+tools: [motus]
 projects:
 tags: []
 
