@@ -70,30 +70,8 @@ navorder: 4
               <div class="note">
                 <!-- This took a while, but it links the name of each author from the lab
                 to their page and keeps collaborators' names as strings -->
-                {% assign split_authors = product.authors | split: ", " %}
-                {% for author in split_authors limit:max_authors %}
-                    {% assign author_in_lab = false %}
-                    {% for member in site.categories.team %}
-                        {% for science_name in member.science_names %}
-                            {% if author == science_name %}
-                                {% assign author_in_lab = true %}
-                                <a class="off" href="{{ member.url }}">{{ science_name }}</a>,
-                            {% endif %}
-                        {% endfor %}
-                    {% endfor %}
-                    {% for collab in site.data.collaborators %}
-                        {% if author == collab.science_name %}
-                            {% assign author_in_lab = true %}
-                            <a class="off" href="{{ collab.url }}">{{ collab.science_name }}</a>,
-                        {% endif %}
-                    {% endfor %}
-                    {% if author_in_lab == false %}
-                        {{ author }},
-                    {% endif %}
-                {% endfor %}
-                {% if split_authors.size > max_authors %}
-                  <span data-toggle="tooltip" title="{% for author in split_authors offset:max_authors %}{{ author }}{% unless forloop.last %}, {% endunless -%}{% endfor %}">[...]</span>
-                {% endif %}
+                {% assign authors_list = product.authors | split: ", " %}
+                {% include JB/authors_list %}
                 <span class="journal">
                   {{ product.journal }}
                 </span>
@@ -151,30 +129,8 @@ navorder: 4
               <div class="note">
                 <!-- This took a while, but it links the name of each author from the lab
                 to their page and keeps collaborators' names as strings -->
-                {% assign split_authors = product.authors | split: ", " %}
-                {% for author in split_authors limit:max_authors %}
-                    {% assign author_in_lab = false %}
-                    {% for member in site.categories.team %}
-                        {% for science_name in member.science_names %}
-                            {% if author == science_name %}
-                                {% assign author_in_lab = true %}
-                                <a class="off" href="{{ member.url }}">{{ science_name }}</a>,
-                            {% endif %}
-                        {% endfor %}
-                    {% endfor %}
-                    {% for collab in site.data.collaborators %}
-                        {% if author == collab.science_name %}
-                            {% assign author_in_lab = true %}
-                            <a class="off" href="{{ collab.url }}">{{ collab.science_name }}</a>,
-                        {% endif %}
-                    {% endfor %}
-                    {% if author_in_lab == false %}
-                        {{ author }},
-                    {% endif %}
-                {% endfor %}
-                {% if split_authors.size > max_authors %}
-                  <span data-toggle="tooltip" title="{% for author in split_authors offset:max_authors %}{{ author }}{% unless forloop.last %}, {% endunless -%}{% endfor %}">[...]</span>
-                {% endif %}
+                {% assign authors_list = product.authors | split: ", " %}
+                {% include JB/authors_list %}
                 <span class="journal">
                   {{ product.journal }}
                 </span>
@@ -241,30 +197,8 @@ navorder: 4
                   <div class="note">
                     <!-- This took a while, but it links the name of each author from the lab
                     to their page and keeps collaborators' names as strings -->
-                    {% assign split_authors = product.authors | split: ", " %}
-                    {% for author in split_authors limit:max_authors %}
-                        {% assign author_in_lab = false %}
-                        {% for member in site.categories.team %}
-                            {% for science_name in member.science_names %}
-                                {% if author == science_name %}
-                                    {% assign author_in_lab = true %}
-                                    <a class="off" href="{{ member.url }}">{{ science_name }}</a>,
-                                {% endif %}
-                            {% endfor %}
-                        {% endfor %}
-                        {% for collab in site.data.collaborators %}
-                            {% if author == collab.science_name %}
-                                {% assign author_in_lab = true %}
-                                <a class="off" href="{{ collab.url }}">{{ collab.science_name }}</a>,
-                            {% endif %}
-                        {% endfor %}
-                        {% if author_in_lab == false %}
-                            {{ author }},
-                        {% endif %}
-                    {% endfor %}
-                    {% if split_authors.size > max_authors %}
-                      <span data-toggle="tooltip" title="{% for author in split_authors offset:max_authors %}{{ author }}{% unless forloop.last %}, {% endunless -%}{% endfor %}">[...]</span>
-                    {% endif %}
+                    {% assign authors_list = product.authors | split: ", " %}
+                    {% include JB/authors_list %}
                     <span class="journal">
                       {{ product.journal }}
                     </span>

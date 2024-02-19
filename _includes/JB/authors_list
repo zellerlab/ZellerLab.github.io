@@ -1,0 +1,63 @@
+{% comment %}<!--
+The authors_list include is a listing helper for authors.
+Usage:
+  1) assign the 'authors_list' variable to a valid array of tags.
+  2) include JB/authors_list
+  example:
+    <ul>
+  	  {% assign authors_list = product.authors | split ", " %}  
+  	  {% include JB/authors_list %}
+  	</ul>
+  
+  This helper can be seen in use at: ../paper/index.html
+-->{% endcomment %}
+
+{% assign max_authors = 8 %}
+{% assign max_first_authors = 7 %}
+
+{% for author in authors_list limit:max_first_authors %}
+    {% assign author_in_lab = false %}
+    {% for member in site.categories.team %}
+        {% for science_name in member.science_names %}
+            {% if author == science_name %}
+                {% assign author_in_lab = true %}
+                <a class="off" href="{{ member.url }}">{{ science_name }}</a>,
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+    {% for collab in site.data.collaborators %}
+        {% if author == collab.science_name %}
+            {% assign author_in_lab = true %}
+            <a class="off" href="{{ collab.url }}">{{ collab.science_name }}</a>,
+        {% endif %}
+    {% endfor %}
+    {% if author_in_lab == false %}
+        {{ author }},
+    {% endif %}
+{% endfor %}
+
+{% if authors_list.size > max_authors %}
+    <span data-toggle="tooltip" title="{% for author in authors_list offset:max_authors %}{% unless forloop.last %}{{ author }}, {% endunless %}{% endfor %}">[...]</span>
+{% endif %}
+
+{% if authors_list.size > max_first_authors %}
+    {% assign author = authors_list.last %}
+    {% assign author_in_lab = false %}
+    {% for member in site.categories.team %}
+        {% for science_name in member.science_names %}
+            {% if author == science_name %}
+                {% assign author_in_lab = true %}
+                <a class="off" href="{{ member.url }}">{{ science_name }}</a>,
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+    {% for collab in site.data.collaborators %}
+        {% if author == collab.science_name %}
+            {% assign author_in_lab = true %}
+            <a class="off" href="{{ collab.url }}">{{ collab.science_name }}</a>,
+        {% endif %}
+    {% endfor %}
+    {% if author_in_lab == false %}
+        {{ author }},
+    {% endif %}
+{% endif %}
