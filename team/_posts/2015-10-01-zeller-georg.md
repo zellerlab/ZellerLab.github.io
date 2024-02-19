@@ -6,6 +6,7 @@ handle: zeller
 science_names: [Zeller G]
 image: zeller-georg.jpg
 alumni: false
+linkedin: georg-zeller-41476a2a2
 
 # social
 email: zeller@embl.de
