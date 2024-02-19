@@ -10,7 +10,7 @@ issue:
 pages: 
 is_published: false
 image: /assets/images/papers/biorxiv.png
-projects:
+projects: [stats]
 tags: ["preprint"]
 
 # Text
