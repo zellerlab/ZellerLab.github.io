@@ -47,8 +47,12 @@ navorder: 1
 						<div class="head media-heading member-name">
 							<a href="{{ member.url }}" class="off">{{ member.title }}</a>
 						</div>
-						<p class="note">{{ member.position }}</p>
-						<p class="note">{{ member.department }}</p>
+						<p class="note">
+							{%for country in member.country %}
+							<i class="fi fi-{{country}} fis"></i>
+							{% endfor %}
+							{{ member.position }}
+						</p>
 						<p>
 							{% if member.site %}
 								<a class="social site" href="{{ member.site }}" title="Personal Site">
