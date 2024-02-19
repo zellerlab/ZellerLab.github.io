@@ -169,7 +169,8 @@ p > img {
 .team-photo {
 	margin: auto;
 	display: block;
-	width: 50%;
+	width: 80%;
+	border: 1px solid #021a40;
 	height: auto; /*a replace with auto after adding real photo */
 	vertical-align: middle;
 }
@@ -320,6 +321,13 @@ strong {
 }
 
 // projects page
+
+.project-overview {
+	margin: auto;
+	display: block;
+	width: 80%;
+	height: auto;
+}
 
 .project-icon {
 	border: 1px solid grey;
