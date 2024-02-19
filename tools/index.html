@@ -20,35 +20,36 @@ navorder: 3
 <div class="smallspacer"></div>
 <hr />
 
-<table align="center" ; width=1250px>
-    {% tablerow product in software cols:2 %}
-    {% if product.image %}
-        {% assign image = product.image %}
-    {% else %}
-        {% assign image = "/assets/images/placeholder.png" %}
-    {% endif %}
-
-    <div class="col-md-2.5 paperbox" style="min-width: 575px">
-        <div class="media" style="width:525px; height:150px">
-            <div class="media">
-                <a class="pull-left" href="{{ product.url }}">
-                    <img width=100 class="media-object" src="{{ image }}">
-                </a>
-                <div class="media-body">
-                    <div class="smallhead media-heading">
-                        {% if product.type contains "pilot" %}
-                        <a href="{{ product.url }}" class="off">[PILOT] {{ product.title }}</a>
-                        {% else %}
-                        <a href="{{ product.url }}" class="off">{{ product.title }}</a>
-                        {% endif %}
+<div class="container-fluid">
+    <div class="row">
+        <!-- <div class="col-md-6"> -->
+            {% for product in software %}
+                {% if product.image %}
+                    {% assign image = product.image %}
+                {% else %}
+                    {% assign image = "/assets/images/placeholder.png" %}
+                {% endif %}
+                <div class="col-md-6">
+                    <div class="media tool-card">
+                        <a class="pull-left" href="{{ product.url }}">
+                            <img width=100 class="media-object tool-icon" src="{{ image }}">
+                        </a>
+                        <div class="media-body">
+                            <div class="smallhead media-heading">
+                                {% if product.type contains "pilot" %}
+                                    <a href="{{ product.url }}" class="off">[PILOT] {{ product.title }}</a>
+                                {% else %}
+                                    <a href="{{ product.url }}" class="off">{{ product.title }}</a>
+                                {% endif %}
+                            </div>
+                            <div class="media-body">
+                                {{ product.tagline }}
+                            </div>
+                        </div>
                     </div>
-                    <div class="media-body">
-                        {{ product.tagline }}
-                    </div>
+                    <div class="smallspacer"></div>
                 </div>
-            </div>
-        </div>
+            {% endfor %}
+        <!-- </div> -->
     </div>
-    <div class="smallspacer"></div>
-    {% endtablerow %}
-</table>
+</div>

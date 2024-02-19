@@ -286,6 +286,10 @@ strong {
 	border: 1px solid grey;
 }
 
+.project-card {
+	min-height: 105px;
+}
+
 .project-image {
 	width: 600px;
 	background-color: #FFFFCC;
@@ -293,6 +297,12 @@ strong {
 
 .paper-image {
 	width: 200px;
+}
+
+// tool pages
+
+.tool-card {
+	min-height: 105px;
 }
 
 // carousel
