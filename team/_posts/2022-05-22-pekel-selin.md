@@ -6,6 +6,7 @@ handle: spekel
 science_names: [Pekel S]
 image: pekel-selin.jpg
 alumni: false
+country: [tr]
 
 # social
 email: s.pekel@lumc.nl

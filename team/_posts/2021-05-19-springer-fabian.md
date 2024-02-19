@@ -6,6 +6,7 @@ handle: fspringer
 science_names: [Springer F]
 image: springer-fabian.jpg
 alumni: false
+country: [de]
 
 # social
 email: fabian.springer@embl.de

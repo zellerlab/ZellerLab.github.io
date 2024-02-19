@@ -7,6 +7,7 @@ nickname: Nic
 image: karcher-nicolai.jpg
 science_names: [Karcher N]
 alumni: false
+country: [de]
 
 # social
 email: nicolai.karcher@gmail.com

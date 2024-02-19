@@ -6,6 +6,7 @@ handle: mbaghai
 science_names: [Baghai Arassi M]
 image: baghai-arassi-maral.jpg
 alumni: false
+country: [de]
 
 # social
 email: maral.baghai@embl.de

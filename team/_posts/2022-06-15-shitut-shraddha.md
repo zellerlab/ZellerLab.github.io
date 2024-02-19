@@ -6,6 +6,7 @@ handle: shitut
 science_names: [Shitut S]
 image: shitut-shraddha.jpg
 alumni: false
+country: [in]
 
 # social
 email: shraddha.shitut@embl.de

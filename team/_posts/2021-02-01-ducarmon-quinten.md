@@ -7,6 +7,7 @@ nickname: []
 science_names: [Ducarmon QR]
 image: ducarmon-quinten.jpg
 alumni: false
+country: [nl]
 
 # social
 email: q.r.ducarmon@lumc.nl

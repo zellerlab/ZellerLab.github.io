@@ -6,6 +6,7 @@ handle: mlarralde
 science_names: [Larralde M]
 image: larralde-martin.jpg
 alumni: false
+country: [fr]
 
 # social
 email: martin.larralde@embl.de

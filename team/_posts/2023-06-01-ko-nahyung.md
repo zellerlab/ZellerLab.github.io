@@ -7,6 +7,7 @@ nickname: []
 science_names: [Ko NH]
 alumni: false
 image: ko-nahyung.jpg
+country: [kr]
 
 # social
 email: nahyungko.lee@gmail.com

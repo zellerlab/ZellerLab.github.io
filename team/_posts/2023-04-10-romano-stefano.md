@@ -6,6 +6,7 @@ handle: sromano
 science_names: [Romano S]
 image: romano-stefano.jpg
 alumni: false
+country: [it]
 
 # social
 email: stefano.romano@embl.de
