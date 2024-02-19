@@ -6,6 +6,7 @@ handle: pwoerz
 science_names: [Wörz P]
 image: woerz-patrick.jpg
 alumni: false
+country: [de]
 
 # social
 email: p.woerz@lumc.nl
