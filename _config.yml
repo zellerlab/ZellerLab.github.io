@@ -16,12 +16,15 @@ future: true
 #
 title : Zeller Lab
 tagline:
-institution:
-  url: https://www.lumc.nl/
-  name: LUMC
-department:
-  url: https://www.lumc.nl/patientenzorg/poliklinieken-verpleegafdelingen-en-expertise-centra/expertisecentra/leiden-university-center-for-infectious-diseases-lucid/
-  name: LUCID
+
+affiliations:
+  - name: LUMC
+    url: https://www.lumc.nl/en/
+  - name: LUCID
+    url: https://www.lumc.nl/patientenzorg/poliklinieken-verpleegafdelingen-en-expertise-centra/expertisecentra/leiden-university-center-for-infectious-diseases-lucid/
+  - name: EMBL
+    url: https://www.embl.org/
+
 author :
   name : Martin larralde
   email : martin.larralde@embl.de

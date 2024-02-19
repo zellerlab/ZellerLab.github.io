@@ -2,7 +2,6 @@
 layout: member
 title: Full Name
 position:
-department:
 handle:
 nickname:
 science_names:
