@@ -21,7 +21,7 @@ institution:
   name: LUMC
 department:
   url: https://www.lumc.nl/patientenzorg/poliklinieken-verpleegafdelingen-en-expertise-centra/expertisecentra/leiden-university-center-for-infectious-diseases-lucid/
-  name: LU-CID
+  name: LUCID
 author :
   name : Martin larralde
   email : martin.larralde@embl.de
