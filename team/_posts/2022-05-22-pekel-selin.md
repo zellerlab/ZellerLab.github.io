@@ -13,6 +13,7 @@ github: pekell
 orcid: 0000-0003-0277-8644
 researchgate: Selin-Pekel-2
 twitter: pekelselin_
+linkedin: selin-pekel
 ---
 
 
