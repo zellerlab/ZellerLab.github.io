@@ -168,10 +168,10 @@
 				{{ member.title }}
 			</div>
 			<div class="smallhead">
+				{%for country in member.country %}
+				<i class="fi fi-{{country}} fis"></i>
+				{% endfor %}
 				{{ member.position }}
-			</div>
-			<div class="smallhead">
-				{{ member.department }}
 			</div>
 			<div class="bigspacer"></div>
 			<div class="bigspacer"></div>
