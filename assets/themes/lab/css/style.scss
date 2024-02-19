@@ -319,7 +319,7 @@ strong {
 	font-weight: $font-weight-base;
 }
 
-// projects pages
+// projects page
 
 .project-icon {
 	border: 1px solid grey;
@@ -334,14 +334,25 @@ strong {
 	background-color: #FFFFCC;
 }
 
+// papers page
+
+.paper-icon {
+	border: 1px solid #021a40;
+}
+
 .paper-image {
 	width: 200px;
+}
+
+.paper-card {
+	padding-bottom: 10px;
+	height: 150px;
 }
 
 // tool pages
 
 .tool-card {
-	min-height: 105px;
+	min-height: 150px;
 }
 
 // carousel
