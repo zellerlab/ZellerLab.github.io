@@ -10,6 +10,7 @@ alumni: false
 # social
 email: p.woerz@lumc.nl
 github: pspice97
+linkedin: patrick-wörz-a453b81a0
 ---
 
 Patrick has been a PhD student in the Zeller group since February 2024; before that he did an internship in the group between October 2023 - January 2024. He obtained a BSc in Biochemistry from Eberhard Karls University, Tübingen, Germany, in 2019 and an MSc in Bioinformatics from the same institute in 2023. His Master's thesis was about improving the performance of taxonomic profiling pipelines by clustering of protein reference databases.
