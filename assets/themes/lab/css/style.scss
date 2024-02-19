@@ -188,15 +188,29 @@ p > img {
     border:1px solid #021a40;
 }
 
+.member-cards {
+	padding-left: 8%;
+}
+
 .member-photo {
-    width: 175px;
-    height:175px;
+    max-width: 100%;
+    height: auto;
+	aspect-ratio: 1.0;
     border:1px solid #021a40;
     border-radius: 50%;
 }
 
+.member-photo-link {
+	max-width: 40%;
+}
+
+.member-card {
+	padding: 10px;
+}
+
 .member-name {
 	font-size: ceil($font-size-base*1.2);
+	padding-top: 10px;
 }
 
 @media all and (max-width: 800) {

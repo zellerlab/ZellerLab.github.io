@@ -30,7 +30,121 @@ navorder: 1
 
 <hr/>
 
-<div class="row" style="padding-left: 8%;">
+<div class="container-fluid member-cards">
+	<div class="row">
+
+		{% for member in current %}
+    	{% if member.image %}
+      		{% assign image = "/assets/images/team/" | append: member.image %}
+    	{% else %}
+      		{% assign image = "/assets/images/team/placeholder.png" %}
+    	{% endif %}
+		<div class="col-md-6">
+			<div class="media member-card">
+				<a class="pull-left member-photo-link" href="{{ member.url }}">
+					<img class="media-object member-photo" src="{{ image }}">
+				</a>
+				<div class="media-body">
+					<div class="head media-heading member-name">
+						<a href="{{ member.url }}" class="off">{{ member.title }}</a>
+					</div>
+					<p class="note">{{ member.position }}</p>
+					<p class="note">{{ member.department }}</p>
+					<p>
+						{% if member.site %}
+							<a class="social site" href="{{ member.site }}" title="Personal Site">
+								<i class="fa fa-user fa-lg"></i>
+							</a>
+						{% endif %}
+
+						{% if member.cv %}
+							{% capture cv_url %}
+								{% include /functions/get_drive_url.html url=member.cv %}
+							{% endcapture %}
+							<a class="social cv" href="{{ cv_url }}" title="Curriculum Vitae">
+								<i class="ai ai-cv-square ai-lg"></i>
+							</a>
+						{% endif %}
+
+						{% if member.nih_biosketch %}
+							{% capture nih_biosketch_url %}
+								{% include /functions/get_drive_url.html url=member.nih_biosketch %}
+							{% endcapture %}
+							<a class="social nih_biosketch" href="{{ nih_biosketch_url }}" title="NIH Biosketch">
+								<i class="fa fa-paragraph fa-lg"></i>
+							</a>
+						{% endif %}
+
+						{% if member.github %}
+							<a class="social github" href="https://github.com/{{ member.github }}" title="GitHub">
+								<i class="fa fa-github-square fa-lg"></i>
+							</a>
+						{% endif %}
+
+						{% if member.twitter %}
+							<a class="social twitter" href="https://twitter.com/{{ member.twitter }}" title="Twitter">
+								<i class="fa fa-twitter-square fa-lg"></i>
+							</a>
+						{% endif %}
+
+						{% if member.scholar %}
+							<a class="social scholar" href="https://scholar.google.com/citations?user={{ member.scholar }}" title="Google Scholar">
+								<i class="ai ai-google-scholar-square ai-lg"></i>
+							</a>
+						{% endif %}
+
+						{% if member.osf %}
+							<a class="social osf" href="https://osf.io/{{ member.osf }}" title="Open Science Framework">
+								<i class="ai ai-osf-square ai-lg"></i>
+							</a>
+						{% endif %}
+
+						{% if member.figshare %}
+							<a class="social figshare" href="{{ member.figshare }}" title="FigShare">
+								<i class="ai ai-figshare-square ai-lg"></i>
+							</a>
+						{% endif %}
+
+						{% if member.researchgate %}
+							<a class="social researchgate" href="https://www.researchgate.net/profile/{{ member.researchgate }}" title="ResearchGate">
+								<i class="ai ai-researchgate-square ai-lg"></i>
+							</a>
+						{% endif %}
+
+						{% if member.impactstory %}
+							<a class="social impactstory" href="https://profiles.impactstory.org/u/{{ member.impactstory }}" title="ImpactStory">
+								<i class="ai ai-impactstory-square ai-lg"></i>
+							</a>
+						{% endif %}
+
+						{% if member.orcid %}
+							<a class="social orcid" href="https://orcid.org/{{ member.orcid }}" title="ORCID">
+								<i class="ai ai-orcid-square ai-lg"></i>
+							</a>
+						{% endif %}
+
+						{% if member.publons %}
+							<a class="social publons" href="https://publons.com/author/{{ member.publons }}" title="Publons">
+								<i class="ai ai-publons-square ai-lg"></i>
+							</a>
+						{% endif %}
+
+						{% if member.linkedin %}
+							<a class="social linkedin" href="https://www.linkedin.com/in/{{ member.linkedin }}" title="LinkedIn">
+								<i class="fa fa-linkedin-square fa-lg"></i>
+							</a>
+						{% endif %}
+
+					</p>
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+
+	</div>
+</div>
+
+<!-- <div class="row" style="padding-left: 8%;">
 	{% for member in current %}
     	{% if member.image %}
       		{% assign image = "/assets/images/team/" | append: member.image %}
@@ -138,7 +252,7 @@ navorder: 1
 			</div>
 		</div>
 	{% endfor %}
-</div>
+</div> -->
 
 {% if alumni.size > 0 %}
 
