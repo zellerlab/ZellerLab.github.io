@@ -20,7 +20,7 @@
 			<div class="smallhead">
 				{% assign emailarray = member.email | split: '@' %}
 				<i class="fa fa-inbox fa-fw"></i>
-				{{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
+				{{ emailarray.first }}<span style="display:none">obfuscate</span>[AT]{{ emailarray.last }}
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
