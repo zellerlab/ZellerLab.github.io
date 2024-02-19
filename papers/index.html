@@ -92,7 +92,7 @@ navorder: 4
                     {% endif %}
                 {% endfor %}
                 {% if split_authors.size > max_authors %}
-                  <a href="#" data-toggle="tooltip" title="{% for author in split_authors offset:max_authors %}{{ author }}{% unless forloop.last %}, {% endunless -%}{% endfor %}">[...]</a>
+                  <span data-toggle="tooltip" title="{% for author in split_authors offset:max_authors %}{{ author }}{% unless forloop.last %}, {% endunless -%}{% endfor %}">[...]</span>
                 {% endif %}
                 <span class="journal">
                   {{ product.journal }}
@@ -173,7 +173,7 @@ navorder: 4
                     {% endif %}
                 {% endfor %}
                 {% if split_authors.size > max_authors %}
-                  <a href="#" data-toggle="tooltip" title="{% for author in split_authors offset:max_authors %}{{ author }}{% unless forloop.last %}, {% endunless -%}{% endfor %}">[...]</a>
+                  <span data-toggle="tooltip" title="{% for author in split_authors offset:max_authors %}{{ author }}{% unless forloop.last %}, {% endunless -%}{% endfor %}">[...]</span>
                 {% endif %}
                 <span class="journal">
                   {{ product.journal }}
@@ -263,7 +263,7 @@ navorder: 4
                         {% endif %}
                     {% endfor %}
                     {% if split_authors.size > max_authors %}
-                      <a href="#" data-toggle="tooltip" title="{% for author in split_authors offset:max_authors %}{{ author }}{% unless forloop.last %}, {% endunless -%}{% endfor %}">[...]</a>
+                      <span data-toggle="tooltip" title="{% for author in split_authors offset:max_authors %}{{ author }}{% unless forloop.last %}, {% endunless -%}{% endfor %}">[...]</span>
                     {% endif %}
                     <span class="journal">
                       {{ product.journal }}
