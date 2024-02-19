@@ -6,6 +6,7 @@ handle: rehackett
 science_names: [R.E. Hackett] 
 image: hackett-raymund.jpg
 alumni: false
+country: [de,us]
  
 # social
 email: r.e.hackett@lumc.nl
