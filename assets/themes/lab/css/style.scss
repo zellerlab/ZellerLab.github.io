@@ -213,6 +213,31 @@ p > img {
 	padding-top: 10px;
 }
 
+.alumni-cards {
+	padding-left: 8%;
+}
+
+.alumni-card {
+	padding: 10px;
+}
+
+.alumni-photo {
+    max-width: 100%;
+    height: auto;
+	aspect-ratio: 1.0;
+    border:1px solid #021a40;
+    border-radius: 50%;
+}
+
+.alumni-photo-link {
+	max-width: 40%;
+}
+
+.alumni-name {
+	font-size: ceil($font-size-base*1.2);
+	padding-top: 10px;
+}
+
 @media all and (max-width: 800) {
 	.member-name {
 		font-size: $font-size-base;
