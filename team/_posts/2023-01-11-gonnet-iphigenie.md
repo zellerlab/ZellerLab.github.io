@@ -6,6 +6,7 @@ handle: ihmgonnet
 science_names: [Gonnet I]
 image: gonnet-iphigenie.jpg
 alumni: false
+country: [fr]
 
 # social
 email: i.h.m.gonnet@lumc.nl
