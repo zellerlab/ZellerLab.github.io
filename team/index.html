@@ -158,9 +158,9 @@ navorder: 1
 	<div class="row" style="padding-left: 8%;">
 		{% for member in alumni %}
 			{% if member.image %}
-				{% assign image = member.image %}
+				{% assign image = "/assets/images/team/" | append: member.image %}
 			{% else %}
-				{% assign image = "/assets/images/placeholder-user.png" %}
+				{% assign image = "/assets/images/team/placeholder.png" %}
 			{% endif %}
 			<div class="col-md-6">
 				<div class="media alumni-card">
