@@ -16,17 +16,9 @@ scholar: d2j8XH8AAAAJ
 twitter: althonos
 ---
 
-Martin studied Molecular Biology and Computer Science at the Ecole Normale Supérieure
-Paris-Saclay before pursuing a Master's degree in Bioinformatics and Biostatistics
-at the Université Paris-Saclay. He joined the Zeller lab in 2019 to study
-the secondary metabolism of the human gut microbiome.
+Martin studied Molecular Biology and Computer Science at the Ecole Normale Supérieure Paris-Saclay before pursuing a Master’s degree in Bioinformatics and Biostatistics at the Université Paris-Saclay. He joined the Zeller lab in 2019 to study the secondary metabolism of the human gut microbiome.  
 
-Martin is involved in functional annotation, more specifically in the discovery 
-of biosynthetic gene clusters (BGCs). He spent most of his PhD developing 
-[GECCO](/tools/gecco), the Zeller lab project to identify novel BGCs 
-*in silico* from genomic and metagenomic sequences.
+Martin is involved in functional annotation, more specifically in the discovery of biosynthetic gene clusters (BGCs). He spent most of his PhD developing [GECCO](/tools/gecco), a computational tool for identifying novel BGCs in silico from genomic and metagenomic sequences.  
 
-In addition, he develops high-performance software for efficient analysis of
-biological data, contributing interfaces for popular bioinformatics tools such
-as Prodigal, HMMER, or developing new accelerated implementations of popular
-algorithms.
+In addition, he develops high-performance software for efficient analysis of biological data, contributing interfaces for popular bioinformatics tools such as Prodigal, HMMER, or developing new accelerated implementations of popular algorithms.
+
