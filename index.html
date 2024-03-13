@@ -163,6 +163,10 @@ categories:
 		</div>
 		<div class="bigspacer"></div>
     <div class="feedbox">
+
+		<a class="twitter-timeline" href="https://twitter.com/ZellerGroup?ref_src=twsrc%5Etfw">Tweets by ZellerGroup</a>
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+			{% comment %}
 			{% for news in site.categories.news limit:5 %}
 
 				{% for member in site.categories.team %}
@@ -187,6 +191,7 @@ categories:
 				<div class="spacer"></div>
 				<div class="spacer"></div>
 			{% endfor %}
+			{% endcomment %}
 		</div>
 		<div class="bigspacer"></div>
 	</div>
