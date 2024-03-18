@@ -7,7 +7,7 @@ science_names: [G. Conti]
 image: conti-gabriele.jpg
 alumni: false
 country: [it]
-website: https://www.unibo.it/sitoweb/gabriele.conti12
+site: https://www.unibo.it/sitoweb/gabriele.conti12
  
 # social
 email: gabriele.conti12@unibo.it
