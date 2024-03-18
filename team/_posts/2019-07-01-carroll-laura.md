@@ -4,7 +4,7 @@ title: Laura Carroll
 position: Postdoctoral Fellow
 current_position: Assistant University Lecturer at Umea University
 handle: carroll
-science_names:
+science_names: [Carroll LM]
 image: carroll-laura.png
 alumni: true
 linkedin:
