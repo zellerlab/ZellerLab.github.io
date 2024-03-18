@@ -12,9 +12,10 @@ country: [us]
 
 # social
 email:
-orcid:
-researchgate:
-scholar:
+orcid: 0000-0002-3677-0192
+researchgate: Laura-Carroll-2
+scholar: eJHtnUAAAAAJ
+github: lmc297
 ---
 
 Laura Carroll was a Postdoctoral Fellow in the lab from 2019-07-01 to 2022-06-30. After that she joined Umeå University as an Assistant Professor.
