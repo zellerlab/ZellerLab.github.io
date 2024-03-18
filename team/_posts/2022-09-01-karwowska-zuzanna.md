@@ -1,8 +1,8 @@
 ---
 layout: member
 title: Zuzanna Karwowska
-position: Visiting PhD student
-current_position: PhD student at Jagiellonian University
+position: Visiting PhD Student
+current_position: PhD Student at Jagiellonian University
 handle: karwowska
 science_names: [Karwowska Z]
 image: karwowska-zuzanna.png
@@ -17,5 +17,5 @@ researchgate:
 scholar:
 ---
 
-Zuzanna Karwowska was a visiting PhD student in the lab from 2022-09-01 to 2022-11-30. She afterwards continued her PhD work in the Structural & Functional Genomics Lab
+Zuzanna Karwowska was a visiting PhD Student in the lab from 2022-09-01 to 2022-11-30. She afterwards continued her PhD work in the Structural & Functional Genomics Lab
 Małopolska Centre of Biotechnology UJ, Poland.
