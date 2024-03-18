@@ -2,6 +2,7 @@
 layout: member
 title: Zuzanna Karwowska
 position: Visiting PhD student
+current_position: PhD student at Jagiellonian University
 handle: karwowska
 science_names:
 image: karwowska-zuzanna.png

@@ -2,6 +2,7 @@
 layout: member
 title: Ruby Ponnudurai
 position: Postdoctoral Fellow
+current_position: Scientific Editor at EMBO
 handle: ponnudurai
 science_names:
 image: ponnudurai-ruby.png

@@ -238,6 +238,11 @@ navorder: 1
 								</a>
 							{% endif %}
 						</p>
+						<p>
+							{% if member.current_position %}
+							<em>Now {{ member.current_position }}</em>
+							{% endif %}
+						</p>
 					</div>
 				</div>
 			</div>

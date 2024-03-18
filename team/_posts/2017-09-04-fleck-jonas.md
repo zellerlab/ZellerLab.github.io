@@ -2,6 +2,7 @@
 layout: member
 title: Jonas Fleck
 position: Intern / MSc student
+current_position: Scientist at Roche Institute for Human Biology
 handle: fleck
 science_names:
 image: fleck-jonas.png
