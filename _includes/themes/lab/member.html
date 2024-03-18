@@ -173,6 +173,12 @@
 				{% endfor %}
 				{{ member.position }}
 			</div>
+			{% if member.current_position %}
+			<div class="smallspacer"></div>
+			<div class="smallhead">
+				<em>Now {{ member.current_position }}</em>
+			</div>
+			{% endif %}
 			<div class="bigspacer"></div>
 			<div class="bigspacer"></div>
 			<div class="post">
