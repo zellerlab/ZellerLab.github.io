@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Jakob Wirbel
-position: Bridging Postdoc
+position: "PhD student and later Bridging Postdoc"
 handle: wirbel
 science_names:
 image: wirbel-jakob.png
