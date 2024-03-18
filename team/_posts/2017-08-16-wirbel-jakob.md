@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Jakob Wirbel
-position: "PhD student and later Bridging Postdoc"
+position: "PhD student and Bridging Postdoc"
 current_position: Postdoctoral Fellow at Stanford School of Medicine
 handle: wirbel
 science_names:
