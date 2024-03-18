@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Alessio Milanese
-position: "PhD student and Bridging Postdoc"
+position: "PhD Student and Bridging Postdoc"
 current_position: Senior Associate Scientist at dsm-firmenich
 handle: milanese
 science_names: [Milanese A]
