@@ -16,4 +16,5 @@ researchgate:
 scholar:
 ---
 
-Zuzanna Karwowska was a Visiting PhD student in the lab from 2022-09-01 to 2022-11-30.
+Zuzanna Karwowska was a visiting PhD student in the lab from 2022-09-01 to 2022-11-30. She afterwards continued her PhD work in the Structural & Functional Genomics Lab
+Małopolska Centre of Biotechnology UJ, Poland.
