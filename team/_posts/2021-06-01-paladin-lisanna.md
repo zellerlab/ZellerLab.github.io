@@ -4,7 +4,7 @@ title: Lisanna Paladin
 position: Staff community manager
 current_position: Senior Scientific Community Manager at EMBL
 handle: paladin
-science_names: 
+science_names: [Paladin L]
 image: paladin-lisanna.jpg
 alumni: true
 linkedin:

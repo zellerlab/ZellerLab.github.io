@@ -4,7 +4,7 @@ title: Ruby Ponnudurai
 position: Postdoctoral Fellow
 current_position: Scientific Editor at EMBO
 handle: ponnudurai
-science_names:
+science_names: [Ponnudurai R]
 image: ponnudurai-ruby.png
 alumni: true
 linkedin:

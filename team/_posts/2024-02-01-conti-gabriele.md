@@ -3,7 +3,7 @@ layout: member
 title: Gabriele Conti
 position: Visiting PhD Student
 handle: gconti
-science_names: [G. Conti] 
+science_names: [Conti G] 
 image: conti-gabriele.jpg
 alumni: false
 country: [it]

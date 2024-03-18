@@ -4,7 +4,7 @@ title: Jonas Fleck
 position: Intern / MSc student
 current_position: Scientist at Roche Institute for Human Biology
 handle: fleck
-science_names:
+science_names: [Fleck JS]
 image: fleck-jonas.png
 alumni: true
 linkedin:

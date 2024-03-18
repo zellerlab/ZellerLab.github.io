@@ -4,7 +4,7 @@ title: Jakob Wirbel
 position: "PhD student and Bridging Postdoc"
 current_position: Postdoctoral Fellow at Stanford School of Medicine
 handle: wirbel
-science_names:
+science_names: [Wirbel J]
 image: wirbel-jakob.png
 alumni: true
 linkedin:
