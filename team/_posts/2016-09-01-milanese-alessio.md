@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Alessio Milanese
-position: "PhD student and bridging Postdoc (later shared with Shini Sunagawa, ETH)"
+position: "PhD student and Bridging Postdoc (later shared with Shini Sunagawa, ETH)"
 handle: milanese
 science_names:
 image: milanese-alessio.png
