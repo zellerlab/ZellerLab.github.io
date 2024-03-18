@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Nahyung Ko
-position: Master’s Student
+position: MSc Student
 handle: nko
 nickname: []
 science_names: [Ko NH]
