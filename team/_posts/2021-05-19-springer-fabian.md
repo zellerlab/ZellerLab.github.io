@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Fabian Springer
-position: PhD student
+position: PhD Student
 handle: fspringer
 science_names: [Springer F]
 image: springer-fabian.jpg
