@@ -70,7 +70,7 @@ categories:
 		</div>
 		<div class="bigspacer"></div>
     <div class="feedbox">
-			{% for product in site.categories.papers limit: 3 %}
+			{% for product in site.categories.papers limit: 5 %}
 				<div class="note-title">
 					<i class="fa fa-file-text-o fa-fw"></i>
           {% if product.tags contains "preprint" and product.is_published == false %}
