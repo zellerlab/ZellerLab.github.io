@@ -4,7 +4,7 @@ title: Zuzanna Karwowska
 position: Visiting PhD student
 handle: karwowska
 science_names:
-image: placeholder.png
+image: karwowska-zuzanna.png
 alumni: true
 linkedin:
 country: [pl]

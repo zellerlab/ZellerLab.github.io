@@ -4,7 +4,7 @@ title: Lisanna Paladin
 position: Staff community manager
 handle: paladin
 science_names: 
-image: lisanna-paladin.jpg
+image: paladin-lisanna.jpg
 alumni: true
 linkedin:
 country: [it]

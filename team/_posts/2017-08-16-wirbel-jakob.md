@@ -4,7 +4,7 @@ title: Jakob Wirbel
 position: Bridging Postdoc
 handle: wirbel
 science_names:
-image: placeholder.png
+image: wirbel-jakob.png
 alumni: true
 linkedin:
 country: [de]

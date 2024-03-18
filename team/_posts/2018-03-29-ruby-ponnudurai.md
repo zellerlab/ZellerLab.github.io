@@ -4,7 +4,7 @@ title: Ruby Ponnudurai
 position: EIPOD postdoc (with Nassos)
 handle: ponnudurai
 science_names:
-image: placeholder.png
+image: ponnudurai-ruby.png
 alumni: true
 linkedin:
 country: [in]

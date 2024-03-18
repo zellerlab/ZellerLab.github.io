@@ -4,7 +4,7 @@ title: Laura Carroll
 position: Postdoctoral Fellow
 handle: carroll
 science_names:
-image: placeholder.png
+image: carroll-laura.png
 alumni: true
 linkedin:
 country: [us]

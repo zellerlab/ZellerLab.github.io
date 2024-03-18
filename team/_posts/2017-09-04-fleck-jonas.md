@@ -4,7 +4,7 @@ title: Jonas Fleck
 position: Intern / MSc student
 handle: fleck
 science_names:
-image: placeholder.png
+image: fleck-jonas.png
 alumni: true
 linkedin:
 country: [de]
