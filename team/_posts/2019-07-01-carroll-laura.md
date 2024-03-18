@@ -2,7 +2,7 @@
 layout: member
 title: Laura Carroll
 position: Postdoctoral Fellow
-current_position: Assistant Professor at Umea University
+current_position: Assistant Professor at Umeå University
 handle: carroll
 science_names: [Carroll LM]
 image: carroll-laura.png
