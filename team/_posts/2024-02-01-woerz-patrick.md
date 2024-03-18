@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Patrick Wörz
-position: PhD student
+position: PhD Student
 handle: pwoerz
 science_names: [Wörz P]
 image: woerz-patrick.jpg
