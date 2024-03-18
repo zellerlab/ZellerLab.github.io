@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Alessio Milanese
-position: Part-time Visiting Postdoc (main: Sunagawa)
+position: "Part-time Visiting Postdoc (main: Sunagawa)"
 handle: milanese
 science_names:
 image: milanese-alessio.png
