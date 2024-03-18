@@ -15,6 +15,8 @@ email:
 orcid:
 researchgate:
 scholar:
+github: lisanna
+twitter: LisannaPaladin
 ---
 
 Lisanna Paladin was a Staff community manager in the lab from 2021-06-01 to 2024-05-31.
