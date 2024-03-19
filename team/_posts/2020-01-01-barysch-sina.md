@@ -1,9 +1,10 @@
 ---
 layout: member
 title: Sina Barysch
-position: Staff Project Manager (shared)
+position: Project Manager (shared)
+current_position: Project Manager at EMBL
 handle: barysch
-science_names:
+science_names: [Barysch_S]
 image: barysch-sina.png
 alumni: true
 linkedin:
