@@ -4,7 +4,7 @@ title: Morgan Essex
 position: Intern / MSc Student
 current_position: PhD Student at MDC Berrlin
 handle: essex
-science_names: [Essex_M]
+science_names: [Essex M]
 image: essex-morgan.png
 alumni: true
 linkedin:
