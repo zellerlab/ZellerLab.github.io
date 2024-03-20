@@ -18,4 +18,4 @@ scholar: y05xFCAAAAAJ
 github: joschif
 ---
 
-Jonas Fleck was an Intern and MSc student in the lab from 2017-09-04 to 2018-09-30. Afterwards he did his PhD with Barabara Treutlein at ETH in Basel and is now a postdoctoral researcher at the Roche Institute for Human Biology in Basel.
+Jonas Fleck was an Intern and MSc student in the lab from 2017-09-04 to 2018-09-30. Afterwards he did his PhD with Barbara Treutlein at ETH in Basel and is now a postdoctoral researcher at the Roche Institute for Human Biology in Basel.
