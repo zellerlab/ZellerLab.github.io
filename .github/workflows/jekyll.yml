@@ -7,16 +7,6 @@ on:
     branches: [ main ]
 
 jobs:
-  build_v1:
-    name: Build
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
 
   build:
     runs-on: ubuntu-latest
@@ -30,3 +20,22 @@ jobs:
         uses: actions/jekyll-build-pages@v1
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
+
+  deploy:
+    environment: zellerlab.org
+    runs-on: ubuntu-latest
+    name: Deploy
+    needs: build
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: dist
+      - name: Deploy
+        uses: easingthemes/ssh-deploy@main
+        with:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_USER: ${{ secrets.REMOTE_USER }}
+          SOURCE: dist
