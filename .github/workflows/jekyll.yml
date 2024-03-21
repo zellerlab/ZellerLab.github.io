@@ -14,12 +14,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Setup Pages
+      - name: Setup pages
         uses: actions/configure-pages@v3
-      - name: Build
+      - name: Build pages
         uses: actions/jekyll-build-pages@v1
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Upload artifacts
+        with: actions/upload-artifact@v4
+          name: site
+          path: _site
+
 
   deploy:
     environment: zellerlab.org
@@ -30,11 +33,11 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          path: dist
+          name: site
       - name: Deploy
         uses: easingthemes/ssh-deploy@main
         with:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          SOURCE: dist
+          SOURCE: _site
