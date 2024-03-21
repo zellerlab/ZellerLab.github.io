@@ -28,6 +28,7 @@ jobs:
   deploy:
     environment: zellerlab.org
     runs-on: ubuntu-latest
+    if: ${{ github.ref == 'refs/heads/main' }}
     name: Deploy
     needs: build
     steps:
