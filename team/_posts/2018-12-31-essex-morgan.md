@@ -2,7 +2,7 @@
 layout: member
 title: Morgan Essex
 position: Intern / MSc Student
-current_position: PhD Student at MDC Berrlin
+current_position: PhD Student at MDC Berlin
 handle: essex
 science_names: [Essex M]
 image: essex-morgan.png
