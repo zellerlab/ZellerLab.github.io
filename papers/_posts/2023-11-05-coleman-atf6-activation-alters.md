@@ -2,7 +2,7 @@
 layout: paper
 title: "ATF6 activation alters colonic lipid metabolism causing tumor-associated microbial adaptation"
 nickname: 2023-11-05-coleman-atf6
-authors: "Olivia I. Coleman, Adam Sorbie, Sandra Bierwith, Janine Kövilein, Miriam von Stern, Nikolai Köhler, Jakob Wirbel, Christina Schmidt, Tim Kacprowski, Andreas Dunkel, Josh K. Pauling, Johannes Plagge, Diego Mediel-Cuadra, Sophia Wagner, Tingying Peng, Thomas Metzler, Clemens Schafmayer, Sebastian Hinz, Christian Röder, Christoph Röcken, Bärbel Stecher, Philip Rosenstiel, Katja Steiger, Moritz Jesinghaus, Gerhard Liebisch, Josef Ecker, Georg Zeller, Klaus-Peter Janssen, Dirk Haller"
+authors: "Coleman OI, Sorbie A, Bierwith S, Kövilein J, von Stern M, Köhler N, Wirbel J, Schmidt C, Kacprowski T, Dunkel A, Pauling JK, Plagge J, Mediel-Cuadra D, Wagner S, Peng T, Metzler T, Schafmayer C, Hinz S, Röder C, Röcken C, Stecher B, Rosenstiel P, Steiger K, Jesinghaus M, Liebisch G, Ecker J, Zeller G, Janssen KP, Haller D"
 year: "2023"
 journal: "bioRxiv"
 volume: 
