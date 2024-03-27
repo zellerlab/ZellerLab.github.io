@@ -2,7 +2,7 @@
 layout: member
 title: Juliette Treyer
 position: Intern
-current_position: MSc Student Biomedical Engineering at Politecnico di Milano
+current_position: MSc Student at Politecnico di Milano / ENSTA Paris
 handle: treyer
 science_names: [Treyer J]
 image: treyer-juliette.png
