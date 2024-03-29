@@ -13,8 +13,8 @@ country: [us]
 # social
 email:
 orcid:
-researchgate:
-scholar:
+researchgate: Morgan-Essex
+scholar: bZuOHS8AAAAJ
 github:
 ---
 
