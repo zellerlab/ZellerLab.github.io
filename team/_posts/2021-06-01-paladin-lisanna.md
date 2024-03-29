@@ -7,14 +7,14 @@ handle: paladin
 science_names: [Paladin L]
 image: paladin-lisanna.jpg
 alumni: true
-linkedin:
+linkedin: lisanna-paladin-3913b6102
 country: [it]
 
 # social
 email:
-orcid:
+orcid: 0000-0003-0011-9397
 researchgate:
-scholar:
+scholar: ysNnxSwAAAAJ
 github: lisanna
 twitter: LisannaPaladin
 ---
