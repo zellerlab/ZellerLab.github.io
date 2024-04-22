@@ -3,7 +3,7 @@ layout: member
 title: Stefano Romano
 position: Postdoctoral Researcher
 handle: sromano
-science_names: [Romano S]
+science_names: [Romano S, Romano SR]
 image: romano-stefano.jpg
 alumni: false
 country: [it]
