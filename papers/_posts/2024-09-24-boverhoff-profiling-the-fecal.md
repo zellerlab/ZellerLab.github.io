@@ -9,7 +9,7 @@ volume: 43
 issue: 9
 pages: 114729
 is_published: true
-image: /assets/images/papers/cell-rep.png
+image: /assets/images/papers/cell-reports.png
 projects:
 tags: []
 
