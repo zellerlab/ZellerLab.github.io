@@ -14,4 +14,4 @@ email: nahyungko.lee@gmail.com
 twitter: Nana6797
 linkedin: nahyung-ko-435405227
 ---
-Nahyung was a Master's student who joined the Zeller lab at EMBL Heidelberg from June 2023 as a research intern and completing her Master's thesis on the spatial imaging of the microbiome in tumour tissues by X. After obtaining her BSc degree in Biological Science at Chung-Ang University in South Korea, she obtained her MSc degree in Molecular and Cellular Biology at Heidelberg University in Germany.
+Nahyung was an undergraduated intern and Master's student in the Zeller lab at EMBL between 2023-06-01 and 2024-06-30 and afterwards obtained her MSc degree in Molecular and Cellular Biology from Heidelberg University, DE.
