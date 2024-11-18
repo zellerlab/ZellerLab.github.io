@@ -19,6 +19,4 @@ twitter: ContiGabriele96
 scholar: qM8-P_UAAAAJ
 ---
 
-Gabriele holds BSc and MSc degrees in Biotechnology and Pharmaceutical Biotechnology, respectively, from the Alma Mater Studiorum University of Bologna (Italy), where he is currently a Ph.D. student in the Biotechnological Biocomputational Pharmaceutical Sciences program. His research focuses on the role of the human microbiome in various oncological diseases. Using biocomputational and biostatistical approaches to analyse next-generation sequencing (NGS) microbiome data, his work aims to develop personalised integrated intervention strategies for patients, with a particular focus on haematological malignancies in both adult and paediatric populations.
-  
-During his visiting period at LUMC, Gabriele focused on a paediatric cohort affected by various haematological malignancies to assess the role of the gut microbiome in allo-HSCT therapy. He investigated the interaction of the gut microbiome with disease remission and progression, as well as side effects such as aGvHD and febrile neutropenia.
+Gabriele visited the Zeller group at the LUMC between 2024-02-01 and 2024-07-31 while doing his PhD research at the University of Bologna (Italy) in the Biotechnological Biocomputational Pharmaceutical Sciences program.
