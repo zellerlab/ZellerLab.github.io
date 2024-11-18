@@ -2,6 +2,7 @@
 layout: member
 title: Gabriele Conti
 position: Visiting PhD Student
+current_position: PhD student at the University of Bologna
 handle: gconti
 science_names: [Conti G] 
 image: conti-gabriele.jpg
