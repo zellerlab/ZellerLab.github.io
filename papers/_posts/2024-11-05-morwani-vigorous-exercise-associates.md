@@ -4,12 +4,12 @@ title: "Vigorous exercise associates with the abundance of gut bacterial species
 nickname: 2024-11-05-morwani-vigorous-exercise-associates
 authors: "Morwani J, Ducarmon Q, Zeller G, Deelen J, Beekman M, Slagboom PE"
 year: "2024"
-journal: "biorXiv"
+journal: "medrxiv"
 volume:
 issue:
 pages:
 is_published: false
-image: /assets/images/papers/biorxiv.png
+image: /assets/images/papers/medrxiv.png
 projects:
 tags: ["preprint"]
 

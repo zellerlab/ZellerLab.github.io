@@ -4,12 +4,12 @@ title: "{title}"
 nickname: {nickname}
 authors: "{authors}"
 year: "{year}"
-journal: "biorXiv"
+journal: "{journal}"
 volume:
 issue:
 pages:
 is_published: false
-image: /assets/images/papers/biorxiv.png
+image: /assets/images/papers/{journal}.png
 projects:
 tags: ["preprint"]
 

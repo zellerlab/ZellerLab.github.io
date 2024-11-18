@@ -47,7 +47,7 @@ latest = max(data["collection"], key=lambda item: int(item['version']))
 title = latest["title"]
 image = f"/assets/images/papers/{args.provider}.png"
 tags = ["preprint"]
-journal = "{args.provider}"
+journal = f"{args.provider}"
 date = datetime.datetime.strptime(latest['date'], '%Y-%m-%d').date()
 doi = f"https://doi.org/{latest['doi']}"
 
