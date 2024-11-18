@@ -10,7 +10,7 @@ issue:
 pages: 
 is_published: true
 image: /assets/images/papers/nucleic-acids-res.png
-projects:
+projects: microbiome-profiling
 tags: []
 
 # Text
