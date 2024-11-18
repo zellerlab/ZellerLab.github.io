@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: "Heterologous Expression of a Cryptic BGC from Bilophila sp. Provides Access to a Novel Family of Antibacterial Thiazoles"
-nickname: {nickname}
+nickname: hohmann-heterologous-expression-of
 authors: "Hohmann M, Iliasov D, Larralde M, Johannes W, Janßen KP, Zeller G, Mascher T, Gulder T"
 year: "2024"
 journal: "ChemRxiv"
@@ -33,7 +33,7 @@ figshare:
 figshare_names:
 osf:
 ---
-{{% include JB/setup %}}
+{% include JB/setup %}
 
 # Abstract
 
