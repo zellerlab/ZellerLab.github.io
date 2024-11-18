@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Intratumoral microbiome"
-contributors: [nkarcher, shitut, fspringer, pwoerz]
+contributors: [nkarcher, shitut, fspringer, pwoerz, lbornes]
 handle: intratumoral
 status: ongoing
 type: dataset

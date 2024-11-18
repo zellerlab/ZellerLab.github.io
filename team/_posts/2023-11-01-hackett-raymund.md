@@ -3,7 +3,7 @@ layout: member
 title: Raymund Hackett
 position: PhD Student
 handle: rehackett
-science_names: [RE Hackett] 
+science_names: [Hackett R, HACKETT RE] 
 image: hackett-raymund.jpg
 alumni: false
 country: [de,us]
