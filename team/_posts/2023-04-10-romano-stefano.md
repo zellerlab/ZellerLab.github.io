@@ -2,6 +2,7 @@
 layout: member
 title: Stefano Romano
 position: Postdoctoral Researcher
+current_position: Data Analyst/Scientist at Targenomix (Potsdam, DE)
 handle: sromano
 science_names: [Romano S, Romano SR]
 image: romano-stefano.jpg
