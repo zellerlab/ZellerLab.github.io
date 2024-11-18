@@ -21,6 +21,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-o",  "--output", type=pathlib.Path, default=PROJECT_FOLDER.joinpath("papers", "_posts"))
 parser.add_argument("--template", type=pathlib.Path, default=PROJECT_FOLDER.joinpath("papers", "_posts", "preprint.md.in"))
 parser.add_argument("--doi", required=True)
+parser.add_argument("--provider", choices={"biorxiv", "medrxiv"}, default="biorxiv")
 args = parser.parse_args()
 
 # load template
@@ -33,7 +34,7 @@ if args.doi.startswith("http"):
 args.doi = re.sub(r'v[0-9]+$', '', args.doi)
 
 # load preprint metadata
-url = f"https://api.biorxiv.org/details/biorxiv/{args.doi}"
+url = f"https://api.{args.provider}.org/details/{args.provider}/{args.doi}"
 with urllib.request.urlopen(url) as res:
     data = json.load(res)
 if data["messages"][0]["status"] != "ok":
@@ -44,9 +45,9 @@ latest = max(data["collection"], key=lambda item: int(item['version']))
 
 # extract metadata
 title = latest["title"]
-image = f"/assets/images/papers/biorxiv.png"
+image = f"/assets/images/papers/{args.provider}.png"
 tags = ["preprint"]
-journal = "biorxiv"
+journal = "{args.provider}"
 date = datetime.datetime.strptime(latest['date'], '%Y-%m-%d').date()
 doi = f"https://doi.org/{latest['doi']}"
 
