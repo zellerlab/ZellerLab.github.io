@@ -10,7 +10,7 @@ issue:
 pages:
 is_published: false
 image: /assets/images/papers/chemrxiv.png
-projects: secondary-metabolism
+projects: [secmet]
 tags: ["preprint"]
 
 # Text

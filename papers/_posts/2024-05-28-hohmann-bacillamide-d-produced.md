@@ -10,7 +10,7 @@ issue: 1
 pages: 655
 is_published: true
 image: /assets/images/papers/commun-biol.png
-projects:
+projects: [secmet]
 tags: []
 
 # Text
