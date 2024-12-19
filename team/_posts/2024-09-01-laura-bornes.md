@@ -5,7 +5,7 @@ position: Postdoctoral Researcher
 handle: lbornes
 nickname: []
 science_names: [Bornes L]
-image: laura-bornes.png
+image: laura-bornes.jpg
 alumni: false
 country: [de]
 
