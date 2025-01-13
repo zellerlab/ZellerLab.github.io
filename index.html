@@ -165,7 +165,12 @@ categories:
 		<div class="bigspacer"></div>
     <div class="feedbox">
 
-		<a class="twitter-timeline" href="https://twitter.com/ZellerGroup?ref_src=twsrc%5Etfw">Tweets by ZellerGroup</a>
+		<!--<a class="twitter-timeline" href="https://twitter.com/ZellerGroup?ref_src=twsrc%5Etfw">Tweets by ZellerGroup</a>-->
+
+                 <script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+                 <bsky-embed username="zellerlab.bsky.social" mode="light" limit="3"></bsky-embed>
+
+
 		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 			{% comment %}
 			{% for news in site.categories.news limit:5 %}
