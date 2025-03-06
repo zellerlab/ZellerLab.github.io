@@ -16,9 +16,9 @@ tags: []
 # Text
 fulltext: https://pubs.acs.org/doi/10.1021/acssynbio.5c00042
 pdf:
-pdflink:
+pdflink: https://pubs.acs.org/doi/epdf/10.1021/acssynbio.5c00042
 pmcid: 
-preprint: https://doi.org/10.26434/chemrxiv-2024-qlv3n
+preprint: 
 supplement:
 
 # Links
