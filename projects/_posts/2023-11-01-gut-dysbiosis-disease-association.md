@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Gut dysbiosis / disease associations"
-contributors: [nkarcher, ihmgonnet, spekel]
+contributors: [nkarcher, ihmgonnet, spekel, essex]
 handle: dysbiosis
 status: ongoing
 type: dataset
@@ -11,11 +11,11 @@ website:
 grant:
 grant_url:
 image: /assets/images/projects/dysbiosis.png
-tagline: Can we obtain a quantitative understanding of gut dysbiosis to rationalise microbiome modulation? 
-tags: 
+tagline: Can we obtain a quantitative understanding of gut dysbiosis to rationalise microbiome modulation?
+tags:
 
 # Data and code
-github: 
+github:
 neurovault:
 openneuro:
 figshare:

@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Maral Baghai Arassi
-position: Clinician Scientist
+position: Clinician Scientist [shared]
 handle: mbaghai
 science_names: [Baghai Arassi M]
 image: baghai-arassi-maral.jpg
