@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Intratumoral microbiome"
-contributors: [nkarcher, shitut, fspringer, pwoerz, lbornes]
+contributors: [nkarcher, shitut, fspringer, pwoerz, lbornes, swistak]
 handle: intratumoral
 status: ongoing
 type: dataset
@@ -12,10 +12,10 @@ grant:
 grant_url:
 image: /assets/images/projects/intratumoral.png
 tagline: In which cancers does an intra-tumoral microbiome exist and how does it interact with other cellular and molecular features of the tumour and its microenvironment?  
-tags: 
+tags:
 
 # Data and code
-github: 
+github:
 neurovault:
 openneuro:
 figshare:

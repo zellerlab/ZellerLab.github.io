@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Spatial community analysis"
-contributors: [nkarcher, shitut, lbornes]
+contributors: [nkarcher, shitut, lbornes, sankeert]
 handle: spatial
 status: ongoing
 type: dataset
@@ -12,10 +12,10 @@ grant:
 grant_url:
 image: /assets/images/projects/spatial.png
 tagline: How to image diverse microbial communities in their natural environment to reveal spatial community architectures?
-tags: 
+tags:
 
 # Data and code
-github: 
+github:
 neurovault:
 openneuro:
 figshare:

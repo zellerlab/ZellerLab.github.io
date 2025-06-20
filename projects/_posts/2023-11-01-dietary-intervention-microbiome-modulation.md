@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Dietary interventions and microbiome modulation"
-contributors: [qrducarmon]
+contributors: [qrducarmon, alberto]
 handle: dietarymicrobiome
 status: ongoing
 type: dataset

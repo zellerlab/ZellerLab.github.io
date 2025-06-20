@@ -2,7 +2,7 @@
 layout: member
 title: Zuzanna Karwowska
 position: Visiting PhD Student
-current_position: PhD Student at Jagiellonian University
+current_position: Senior Data Scientist at Microbiotica
 handle: karwowska
 science_names: [Karwowska Z]
 image: karwowska-zuzanna.png
