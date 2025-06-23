@@ -7,7 +7,7 @@ status: ongoing
 type: dataset
 
 # Optional
-website: ""
+website:
 grant:
 grant_url:
 image: /assets/images/projects/dietary.png
