@@ -19,5 +19,4 @@ scholar: hrd7pUYAAAAJ
 linkedin: nicolai-karcher-a0700a201
 ---
 
-Nic was a postdoc in the Zeller lab from May 2022 to December 2024. Before that, he did his PhD with Nicola Segata (University of Trento, Italy) in collaboration with the Zeller lab. For his PhD work he used shotgun metagenomics data to study strain-level variation and strain transmission characteristics of human gut bacteria.
-His current research interests are disease signatures of the human gut microbiome (with a particular interest in colorectal cancer), how microbial metabolism of drugs is connected to solid organ transplantation outcomes as well as image analysis of intra-tumoral microbial FISH data.
+Nic was a postdoc in the Zeller lab from May 2022 to December 2024. After that he joined Nassos Typas' group at EMBL as a Senior Bioinformatician.
