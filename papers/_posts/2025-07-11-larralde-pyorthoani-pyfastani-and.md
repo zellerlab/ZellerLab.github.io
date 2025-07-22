@@ -1,29 +1,29 @@
 ---
 layout: paper
 title: "PyOrthoANI, PyFastANI, and Pyskani: a suite of Python libraries for computation of average nucleotide identity"
-nickname: 2025-02-17-larralde-pyorthoani-pyfastani-and
+nickname: 2025-07-11-larralde-pyorthoani-pyfastani-and
 authors: "Larralde M, Zeller G, Carroll LM"
 year: "2025"
-journal: "biorxiv"
-volume:
-issue:
+journal: "NAR Genomics and Bioinformatics"
+volume: 7
+issue: 3
 pages:
-is_published: false
-image: /assets/images/papers/biorxiv.png
+is_published: true
+image: /assets/images/papers/nar-gab.png
 projects:
-tags: ["preprint"]
+tags: []
 
 # Text
 fulltext:
 pdf:
 pdflink:
-pmcid:
+pmcid: PMC12246781
 preprint: https://doi.org/10.1101/2025.02.13.638148
 supplement:
 
 # Links
-doi: "10.1101/2025.02.13.638148"
-pmid:
+doi: "10.1093/nargab/lqaf095"
+pmid: 40657423
 
 # Data and code
 github:
