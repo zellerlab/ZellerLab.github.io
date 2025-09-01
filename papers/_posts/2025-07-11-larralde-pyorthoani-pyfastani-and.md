@@ -12,6 +12,7 @@ is_published: true
 image: /assets/images/papers/nar-gab.png
 projects:
 tags: []
+tools: [pyorthoani,pyfastani,pyskani]
 
 # Text
 fulltext:
