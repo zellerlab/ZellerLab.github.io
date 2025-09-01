@@ -12,6 +12,7 @@ is_published: true
 image: /assets/images/papers/joss.png
 projects:
 tags: []
+tools: [pyrodigal]
 
 # Text
 fulltext: "https://joss.theoj.org/papers/10.21105/joss.04296"
