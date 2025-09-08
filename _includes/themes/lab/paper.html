@@ -3,6 +3,14 @@ Branched from Trevor Bedford's source, https://github.com/blab/blotter/blob/mast
 with gratitude.
 -->
 
+<!-- script for altmetric badges and js -->
+<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<script src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
 {% if page.image %}
 	{% assign image = page.image %}
 {% else %}
@@ -18,7 +26,7 @@ with gratitude.
 		</div>
 		<div class="bigspacer"></div>
 
-		<div class="glyphbox note">
+		<div class="glyphbox">
 			{% if page.pdflink or page.pdf or page.fulltext or page.pmcid or page.supplement or page.preprint %}
 				<div class="smallhead subtle">
 					Full text
@@ -183,31 +191,24 @@ with gratitude.
         <div class="bigspacer"></div>
       {% endif %}
 
-			<div class="smallhead subtle">
-				Share
-			</div>
-			<div class="pad-left note">
-	    	<!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
-		    <div class="post-sharing">
-		     {% include JB/sharing %}
-		    </div>
-			</div>
+      {% if page.doi %}
+        <div class="smallhead subtle">
+          Metrics
+        </div>
+        <div class="pad-left">
+          <div class="smallspacer"></div>
+          <span class="__dimensions_badge_embed__" data-doi="{{ page.doi }}" data-legend='right' data-style="small_circle"></span>
+          <div class="smallspacer"></div>
+          <div class="altmetric-embed" data-badge-type="donut" data-badge-popover='right' data-doi="{{ page.doi }}"></div>
+        </div>
+      {% endif %}
+
 		</div>
 	</div>
 
 	<div class="col-md-9">
-		<div class="media-body titlebox">
-			{% if page.doi %}
-				<!-- a small section for the almetric badge if one is available -->
-				<div class="col-md-2.5" style="float:right">
-				  <div data-badge-type="large-donut" data-doi="{{ page.doi }}" data-hide-no-mentions="true" class="altmetric-embed" data-badge-popover='left' style="float:right;clear:both">
-				</div>
-			{% else %}
-				<div class="col-md-2.5" style="float:right">
-					<div data-badge-type="large-donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" data-badge-popover='left' style="float:right;clear:both">
-				</div>
-			{% endif %}
-		  </div>
+		  <div class="media-body titlebox">
+		  <!--/div-->
 			<div class="title media-heading">
 				{% if page.tags contains "preprint" and page.is_published == false %}
 				  [PREPRINT] {{ page.title }}
@@ -299,9 +300,3 @@ with gratitude.
 </div>
 
 <div class="bigspacer"></div>
-
-<!-- script for altmetric badges and js -->
-<script src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
