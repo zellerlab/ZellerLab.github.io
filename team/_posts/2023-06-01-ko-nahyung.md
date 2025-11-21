@@ -2,6 +2,7 @@
 layout: member
 title: Nahyung Ko
 position: MSc Student
+current_position: PhD Student at the Helmholtz Institute for RNA-based Infection Research (HIRI) Wuerzburg
 handle: nko
 nickname: []
 science_names: [Ko NH]
