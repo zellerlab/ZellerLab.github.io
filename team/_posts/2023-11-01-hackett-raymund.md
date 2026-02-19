@@ -13,6 +13,8 @@ email: r.e.hackett@lumc.nl
 github: rayhackett
 orcid: 0009-0004-1843-623X
 linkedin: raymund-hackett-3407912b5
+scholar: 9YIYn0oAAAAJ
+researchgate: Raymund-Hackett
 ---
 
 Raymund started his PhD with the Zeller group in November 2023. He studied Molecular Biology and Organic Chemistry, earning an MSc Degree in Life Science at the University of Konstanz in Germany. This was followed by an internship at the European Bioinformatics Institute in Hinxton, UK. During this time he worked on protein-small molecule interactions and structural patterns of enzyme catalysis.  
