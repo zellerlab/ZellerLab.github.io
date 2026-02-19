@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Fabian Springer
-position: PhD Student [shared]
+position: Postdoctoral Researcher [shared]
 handle: fspringer
 science_names: [Springer F]
 image: springer-fabian.jpg
@@ -16,6 +16,6 @@ twitter: springersfabian
 linkedin: fabian-springer-594345185
 ---
 
-Fabian joined the group as a PhD student in May 2021 at EMBL Heidelberg. He obtained his Bachelor's degree in Biochemistry from the University of Tübingen and his Master's in Systems Biology from Heidelberg University, specialising in multi-omics analysis.  
+Fabian joined the group as a PhD student in May 2021 at EMBL Heidelberg and succesfully defended his dissertation in January 2026. He obtained his Bachelor's degree in Biochemistry from the University of Tübingen and his Master's in Systems Biology from Heidelberg University, specialising in multi-omics analysis.  
 
-In his current PhD research, Fabian is exploring tumour tissue microbiomes, broadening the scope beyond colorectal cancer to various other cancer types. He focuses on studying microbiomes in low-bacterial biomass samples and establishing connections between microbial composition and molecular tumour characteristics. His research aims at deciphering the complex interactions between host cells and tissue-resident microbes, potentially illuminating new facets of cancer biology.
+In his current research, Fabian is exploring tumour tissue microbiomes, broadening the scope beyond colorectal cancer to various other cancer types. He focuses on studying microbiomes in low-bacterial biomass samples and establishing connections between microbial composition and molecular tumour characteristics. His research aims at deciphering the complex interactions between host cells and tissue-resident microbes, potentially illuminating new facets of cancer biology.
