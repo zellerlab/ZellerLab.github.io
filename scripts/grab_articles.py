@@ -64,11 +64,11 @@ if args.email is None:
 searches = [
     # '"Laird AR"[AUTH] AND ("2012/01/01"[PDAT] : "3000/12/31"[PDAT])',
     # '"Sutherland MT"[AUTH] AND ("2012/01/01"[PDAT] : "3000/12/31"[PDAT])',
-    '"Zeller Georg"[AUTH] AND ("2013/01/01"[PDAT] : "3000/12/31"[PDAT])',
+    '("Zeller Georg"[AUTH] OR "Georg F Zeller"[AUTH]) AND ("2013/01/01"[PDAT] : "3000/12/31"[PDAT])',
 ]
 
 # Papers indexed on PubMed, but not captured by the searches.
-other_pmids = []
+other_pmids = ["41698463"]
 pmid_search = "[PMID] OR ".join(other_pmids) + "[PMID]"
 searches.append(pmid_search)
 
