@@ -3,7 +3,7 @@ layout: member
 title: Georg Zeller
 position: Group Leader
 handle: zeller
-science_names: [Zeller G]
+science_names: [Zeller G, Zeller GF]
 image: zeller-georg.jpg
 alumni: false
 linkedin: georg-zeller-41476a2a2

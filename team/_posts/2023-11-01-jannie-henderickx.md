@@ -3,7 +3,7 @@ layout: member
 title: Jannie Henderickx
 position: CMAT Coordinator and Researcher
 handle: jannie
-science_names: [Jannie]
+science_names: [Henderickx J, Henderickx JGE]
 image: henderickx-jannie.jpg
 alumni: false
 country: [nl]
