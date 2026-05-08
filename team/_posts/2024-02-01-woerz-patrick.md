@@ -3,7 +3,7 @@ layout: member
 title: Patrick Wörz
 position: PhD Student
 handle: pwoerz
-science_names: [Wörz P]
+science_names: [Wörz P, Woerz P, Wörz P]
 image: woerz-patrick.jpg
 alumni: false
 country: [de]
