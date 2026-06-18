@@ -2,7 +2,7 @@
 layout: member
 title: Juliette Treyer
 position: Intern
-current_position: MSc Student at Politecnico di Milano / ENSTA Paris
+current_position: Computational Pathology Scientist at UCB, BE
 handle: treyer
 science_names: [Treyer J]
 image: treyer-juliette.png
@@ -18,4 +18,4 @@ scholar:
 github: 
 ---
 
-Juliette Treyer was an Intern in the lab from 2023-05-15 to 2023-08-05. Afterwards she continued her MSc studies in a Double Degree Program in Engineering at Politecnico di Milano and ENSTA Paris.
+Juliette Treyer was an Intern in the lab from 2023-05-15 to 2023-08-05. Afterwards she continued her MSc studies in a Double Degree Program in Engineering at Politecnico di Milano and ENSTA Paris before becomig a Computational Pathology Scientist at UCB, BE.
