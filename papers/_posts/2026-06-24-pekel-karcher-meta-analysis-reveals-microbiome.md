@@ -16,7 +16,7 @@ tags: [stats, dysbiosis]
 # Text
 fulltext: https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(26)00223-4
 pdf:
-pdflink: https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(26)00223-4#
+pdflink: https://www.cell.com/cell-host-microbe/pdfExtended/S1931-3128(26)00223-4
 pmcid: 
 preprint:
 supplement:
