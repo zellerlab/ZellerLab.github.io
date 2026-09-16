@@ -18,11 +18,12 @@ fulltext:
 pdf:
 pdflink:
 pmcid:
-preprint: https://doi.org/10.64898/2026.05.04.26352208v1
+preprint: https://doi.org/10.64898/2026.05.04.26352208
+
 supplement:
 
 # Links
-doi: "10.64898/2026.05.04.26352208v1"
+doi: "10.64898/2026.05.04.26352208"
 pmid:
 
 # Data and code
