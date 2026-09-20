@@ -5,9 +5,9 @@ nickname: 2026-03-30-kaufhold-machine-learning-identifies
 authors: "Kaufhold GN, Bartolomaeus TUP, Kraeker K, Schuette T, Kamboj S, Loeber U, Rahn G, McParland V, Braun L, Marko L, Mammadli M, Krannich A, Bahr LS, Gutmann F, Paul F, Ducarmon QR, Zeller G, Mesnage R, Wilck N, Zernecke A, Oefner PJ, Gronwald W, Mueller DN, Forslund SK, Baehring S, Bartolomaeus H, Siebert N"
 year: "2026"
 journal: "Genome Med"
-volume:
+volume: 18
 issue:
-pages:
+pages: 136
 is_published: true
 image: /assets/images/papers/genome-med.png
 projects:
@@ -16,14 +16,14 @@ tags: []
 # Text
 fulltext: https://link.springer.com/article/10.1186/s13073-026-01765-0
 pdf: https://link.springer.com/content/pdf/10.1186/s13073-026-01765-0_reference.pdf
-pdflink:
-pmcid:
+pdflink: https://pmc.ncbi.nlm.nih.gov/articles/PMC13587497/pdf/13073_2026_Article_1765.pdf
+pmcid: PMC13587497
 preprint: https://doi.org/10.1101/2025.06.26.25330331
 supplement:
 
 # Links
 doi: "10.1186/s13073-026-01765-0"
-pmid:
+pmid: 42754908
 
 # Data and code
 github:
