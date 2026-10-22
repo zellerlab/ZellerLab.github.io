@@ -2,7 +2,7 @@
 layout: paper
 title: "Fast, flexible gene cluster family delineation with IGUA"
 nickname: 2026-10-13-larralde-fast-flexible-gene
-authors: "Larralde M, Blom J, Gourle H, Carroll LM, Zeller G"
+authors: "Larralde M, Blom J, Gourlé H, Radoykova HS, Paoli L, Zeller G, Carroll LM"
 year: "2026"
 journal: "Nucleic Acids Res"
 volume: 54
